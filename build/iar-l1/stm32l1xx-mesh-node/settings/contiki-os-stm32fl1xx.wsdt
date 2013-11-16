@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs/></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1036</ColumnWidth1><ColumnWidth2>276</ColumnWidth2><ColumnWidth3>69</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>375</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <TerminalIO/>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1382</ColumnWidth1></Debug-Log>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20774-27501</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31523-27504</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict/></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1.c</Filename><XPos>0</XPos><YPos>224</YPos><SelStart>8363</SelStart><SelEnd>8377</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1-config.h</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>2349</SelStart><SelEnd>2349</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1\SPIRIT_Radio.h</Filename><XPos>0</XPos><YPos>305</YPos><SelStart>11049</SelStart><SelEnd>11049</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_Spirit_Spi_Driver.c</Filename><XPos>0</XPos><YPos>267</YPos><SelStart>8738</SelStart><SelEnd>8738</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\startup_stm32l1xx_md.s</Filename><XPos>0</XPos><YPos>117</YPos><SelStart>6304</SelStart><SelEnd>6304</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_i2c.c</Filename><XPos>0</XPos><YPos>1150</YPos><SelStart>41272</SelStart><SelEnd>41272</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_PM.c</Filename><XPos>0</XPos><YPos>468</YPos><SelStart>14215</SelStart><SelEnd>14215</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\contiki-spirit1-main.c</Filename><XPos>0</XPos><YPos>198</YPos><SelStart>6873</SelStart><SelEnd>6873</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1\SPIRIT_Radio.c</Filename><XPos>0</XPos><YPos>891</YPos><SelStart>28889</SelStart><SelEnd>28889</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\rtimer-arch.c</Filename><XPos>0</XPos><YPos>76</YPos><SelStart>3145</SelStart><SelEnd>3145</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\watchdog.c</Filename><XPos>0</XPos><YPos>62</YPos><SelStart>2657</SelStart><SelEnd>2657</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\examples\blink\blink.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>662</SelStart><SelEnd>662</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\core\sys\process.c</Filename><XPos>0</XPos><YPos>299</YPos><SelStart>8849</SelStart><SelEnd>8849</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\clock.c</Filename><XPos>0</XPos><YPos>91</YPos><SelStart>3365</SelStart><SelEnd>3365</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_spi.c</Filename><XPos>0</XPos><YPos>737</YPos><SelStart>28404</SelStart><SelEnd>28404</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\apps\mist-conf\mist.h</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>359</SelStart><SelEnd>359</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\examples\router-node\router-webserver-node.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>46</SelStart><SelEnd>46</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\apps\ip64-webserver\httpd-cgi.c</Filename><XPos>0</XPos><YPos>28</YPos><SelStart>2291</SelStart><SelEnd>2307</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\apps\ip64-webserver\httpd-cfs.c</Filename><XPos>0</XPos><YPos>26</YPos><SelStart>1930</SelStart><SelEnd>1930</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\apps\ip64-webserver\httpd-fsdata.c</Filename><XPos>0</XPos><YPos>543</YPos><SelStart>33571</SelStart><SelEnd>33588</SelEnd></Tab><ActiveTab>19</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\apps\ip64-webserver\httpd-fsdata.h</Filename><XPos>0</XPos><YPos>22</YPos><SelStart>1878</SelStart><SelEnd>1878</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\STM32_USB-FS-Device_Lib\inc\usb_type.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1320</SelStart><SelEnd>1320</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0133fb70><key>iaridepm.enu1</key></Toolbar-0133fb70></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>592</Bottom><Right>449</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>138889</sizeHorzCX><sizeHorzCY>239808</sizeHorzCY><sizeVertCX>313194</sizeVertCX><sizeVertCY>712230</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>200</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>239808</sizeHorzCY><sizeVertCX>138889</sizeVertCX><sizeVertCY>239808</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

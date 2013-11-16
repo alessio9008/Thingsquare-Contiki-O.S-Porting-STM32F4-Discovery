@@ -1,0 +1,2227 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.30.6.53336/W32 for ARM              06/Aug/2013  19:05:54 #
+# Copyright 2007-2012 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Exe\blink.out         #
+#    Map file     =  C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\List\blink.map        #
+#    Command line =  C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_Button.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_Com.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_Led.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_PM.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_Spirit_G #
+#                    pio.o C:\cygwin\home\Administrator\thingsquare-mist-1.0. #
+#                    1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_Sp #
+#                    irit_Spi_Driver.o C:\cygwin\home\Administrator\thingsqua #
+#                    re-mist-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj #
+#                    \SDK_EVAL_Timers.o C:\cygwin\home\Administrator\thingsqu #
+#                    are-mist-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Ob #
+#                    j\SDK_EVAL_VC_Desc.o C:\cygwin\home\Administrator\things #
+#                    quare-mist-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\ #
+#                    Obj\SDK_EVAL_VC_Endp.o C:\cygwin\home\Administrator\thin #
+#                    gsquare-mist-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debu #
+#                    g\Obj\SDK_EVAL_VC_General.o                              #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_VC_Istr. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_VC_Pro #
+#                    p.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\ #
+#                    build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SDK_EVAL_VC_P #
+#                    wr.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1 #
+#                    \build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Aes.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Calibrati #
+#                    on.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1 #
+#                    \build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Comma #
+#                    nds.o C:\cygwin\home\Administrator\thingsquare-mist-1.0. #
+#                    1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Csma #
+#                    .o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\b #
+#                    uild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_DirectR #
+#                    F.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\ #
+#                    build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Genera #
+#                    l.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\ #
+#                    build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Gpio.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Irq.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_LinearFifo #
+#                    .o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\b #
+#                    uild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Managem #
+#                    ent.o C:\cygwin\home\Administrator\thingsquare-mist-1.0. #
+#                    1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_PktB #
+#                    asic.o C:\cygwin\home\Administrator\thingsquare-mist-1.0 #
+#                    .1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Pkt #
+#                    Common.o C:\cygwin\home\Administrator\thingsquare-mist-1 #
+#                    .0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_P #
+#                    ktMbus.o C:\cygwin\home\Administrator\thingsquare-mist-1 #
+#                    .0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_P #
+#                    ktStack.o C:\cygwin\home\Administrator\thingsquare-mist- #
+#                    1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_ #
+#                    Qi.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1 #
+#                    \build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Radio #
+#                    .o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\b #
+#                    uild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Timer.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\SPIRIT_Types.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\aes-ccm.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\aes.o             #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\arg.o             #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\assert.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\autostart.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\broadcast.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\channel.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\checkpoint.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\clock.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\compower.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\contiki-spirit1-m #
+#                    ain.o C:\cygwin\home\Administrator\thingsquare-mist-1.0. #
+#                    1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\contikimac. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\crc16.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\csma.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ctimer.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\cxmac.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\dhcpc.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\drowsie-multichan #
+#                    nel.o C:\cygwin\home\Administrator\thingsquare-mist-1.0. #
+#                    1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\drowsie.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\elfloader.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\energest.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\etimer.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\frame802154.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\framer-802154.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\framer-nullmac.o  #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\hc.o              #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\http-strings.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\httpd-cgi.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\httpd-fs.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\httpd.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ifft.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-addr.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-addrmap.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-arp.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-eth-interfac #
+#                    e.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\ #
+#                    build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-eth.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-ipv4-dhcp.o  #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-null-driver. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-slip-inter #
+#                    face.o C:\cygwin\home\Administrator\thingsquare-mist-1.0 #
+#                    .1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-speci #
+#                    al-ports.o C:\cygwin\home\Administrator\thingsquare-mist #
+#                    -1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64-t #
+#                    ap-driver.o C:\cygwin\home\Administrator\thingsquare-mis #
+#                    t-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64- #
+#                    webserver.o C:\cygwin\home\Administrator\thingsquare-mis #
+#                    t-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ip64. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\leds-arch.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\leds.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\list.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\lpp.o             #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\mac.o             #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\mdns.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\memb.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\misc.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\mmem.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\mt.o              #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\neighbor-attr.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\neighbor-info.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\netstack-aes.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\netstack.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\node-id.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\nullmac.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\nullrdc-noframer. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\nullrdc.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\otgd_fs_cal.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\otgd_fs_dev.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\otgd_fs_int.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\otgd_fs_pcd.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\packetbuf.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\packetqueue.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\phase.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\print-stats.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\process.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\procinit.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\profile.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\psock.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\queuebuf.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\random.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\resolv.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rimeaddr.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rimestats.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\ringbuf.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\route-discovery.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\route.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rpl-dag.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rpl-ext-header.o  #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rpl-icmp6.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rpl-of-etx.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rpl-of0.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rpl-timers.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rpl.o             #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rtimer-arch.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\rtimer.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\sicslowmac.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\sicslowpan.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\simple-rpl.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\simple-udp-ping.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\simple-udp.o     #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\slipdev.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\spirit1-arch.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\spirit1.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\startup_stm32l1xx #
+#                    _md.o C:\cygwin\home\Administrator\thingsquare-mist-1.0. #
+#                    1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stimer.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_adc.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_dbgmcu. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_exti. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_gpio. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_i2c.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_it.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_rcc.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_spi.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_syscfg. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_systi #
+#                    ck.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1 #
+#                    \build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\stm32l1xx_ti #
+#                    m.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\ #
+#                    build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\system_stm32l #
+#                    1xx.o C:\cygwin\home\Administrator\thingsquare-mist-1.0. #
+#                    1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\tcp-socket. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\tcpdump.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\tcpip.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\timer.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\timetable-aggrega #
+#                    te.o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1 #
+#                    \build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\timetable.o  #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\trickle.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uaodv-rt.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uaodv.o           #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\udp-multicast.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\udp-socket.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-debug.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-ds6-route.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-ds6.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-fw-drv.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-fw.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-icmp6.o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-nd6.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-neighbor.o    #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-over-mesh.o   #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-packetqueue.o #
+#                     C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bui #
+#                    ld\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-split.o      #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip-udp-packet.o  #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip.o             #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip6.o            #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uip_arp.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\uiplib.o          #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\unicast.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\usb_core.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\usb_init.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\usb_int.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\usb_mem.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\usb_regs.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\usb_sil.o         #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\watchdog.o        #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Obj\websocket-http-cl #
+#                    ient.o C:\cygwin\home\Administrator\thingsquare-mist-1.0 #
+#                    .1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj\websocket. #
+#                    o C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\bu #
+#                    ild\iar-l1\stm32l1xx-mesh-node\Debug\Obj\xmac.o -o       #
+#                    C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\buil #
+#                    d\iar-l1\stm32l1xx-mesh-node\Debug\Exe\blink.out         #
+#                    --redirect _Printf=_PrintfSmall --redirect               #
+#                    _Scanf=_ScanfSmall --map C:\cygwin\home\Administrator\th #
+#                    ingsquare-mist-1.0.1\build\iar-l1\stm32l1xx-mesh-node\De #
+#                    bug\List\blink.map --config "C:\Programmi\IAR            #
+#                    Systems\Embedded Workbench 6.0\arm\config\linker\ST\stm3 #
+#                    2l152xB.icf" --cpu=Cortex-M3 --semihosting --redirect    #
+#                    _Printf=_PrintfLarge --redirect _Scanf=_ScanfLarge       #
+#                    --log_file contiki-mist-spirit1.log --vfe --semihosting  #
+#                    --entry __iar_program_start --redirect                   #
+#                    __iar_sh_stdout=__iar_sh_stdout_swo --vfe                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Li017]: there is already a redirect for "_Printf"
+Warning[Li017]: there is already a redirect for "_Scanf"
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20003fff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                         0xf4
+  .intvec             ro code  0x08000000     0xf4  startup_stm32l1xx_md.o [1]
+                             - 0x080000f4     0xf4
+
+"P1":                                      0x12848
+  .text               ro code  0x080000f4   0x1c3c  uip6.o [1]
+  .text               ro code  0x08001d30    0xa80  uip-ds6.o [1]
+  .text               ro code  0x080027b0     0x16  uiplib.o [1]
+  .text               ro code  0x080027c6     0x16  websocket.o [1]
+  .text               ro code  0x080027dc     0x76  ABImemcpy.o [5]
+  .text               ro code  0x08002852     0x22  zero_init3.o [5]
+  .text               ro code  0x08002874    0x4cc  rpl-ext-header.o [1]
+  .text               ro code  0x08002d40    0x404  uip-icmp6.o [1]
+  .text               ro code  0x08003144    0x520  tcpip.o [1]
+  .text               ro code  0x08003664    0x8e4  uip-nd6.o [1]
+  .text               ro code  0x08003f48    0xb58  rpl-icmp6.o [1]
+  .text               ro code  0x08004aa0     0x62  memcmp.o [5]
+  .rodata             const    0x08004b02      0x2  SDK_EVAL_PM.o [1]
+  .text               ro code  0x08004b04    0x340  uip-ds6-route.o [1]
+  .text               ro code  0x08004e44    0x238  etimer.o [1]
+  .text               ro code  0x0800507c     0x32  stimer.o [1]
+  .text               ro code  0x080050ae     0x16  xmac.o [1]
+  .text               ro code  0x080050c4    0x268  rpl.o [1]
+  .text               ro code  0x0800532c     0x78  clock.o [1]
+  .text               ro code  0x080053a4     0x18  random.o [1]
+  .text               ro code  0x080053bc     0x78  ABImemmove.o [5]
+  .text               ro code  0x08005434     0x66  ABImemset.o [5]
+  .rodata             const    0x0800549a      0x2  framer-802154.o [1]
+  .text               ro code  0x0800549c    0xe34  rpl-dag.o [1]
+  .text               ro code  0x080062d0    0x358  process.o [1]
+  .text               ro code  0x08006628    0x210  rpl-timers.o [1]
+  .text               ro code  0x08006838    0x2ac  packetbuf.o [1]
+  .text               ro code  0x08006ae4     0xce  list.o [1]
+  .text               ro code  0x08006bb2     0xaa  memb.o [1]
+  .text               ro code  0x08006c5c     0x44  timer.o [1]
+  .text               ro code  0x08006ca0    0x150  neighbor-info.o [1]
+  .text               ro code  0x08006df0      0x4  energest.o [1]
+  .text               ro code  0x08006df4     0xac  misc.o [1]
+  .text               ro code  0x08006ea0     0x64  stm32l1xx_systick.o [1]
+  .text               ro code  0x08006f04     0x20  srand.o [3]
+  .text               ro code  0x08006f24     0xc4  rand.o [3]
+  .text               ro code  0x08006fe8    0x17c  ctimer.o [1]
+  .text               ro code  0x08007164     0x54  rimeaddr.o [1]
+  .text               ro code  0x080071b8    0x1b4  neighbor-attr.o [1]
+  .text               ro code  0x0800736c      0x2  xtls.o [3]
+  .rodata             const    0x0800736e      0x2  framer-802154.o [1]
+  .text               ro code  0x08007370   0x1604  sicslowpan.o [1]
+  .text               ro code  0x08008974      0x8  watchdog.o [1]
+  .text               ro code  0x0800897c    0x148  queuebuf.o [1]
+  .text               ro code  0x08008ac4     0x24  printf.o [3]
+  .text               ro code  0x08008ae8    0x4a4  xprintfsmall.o [3]
+  .text               ro code  0x08008f8c     0x16  strchr.o [5]
+  .rodata             const    0x08008fa2      0x2  sicslowpan.o [1]
+  .text               ro code  0x08008fa4     0x36  strlen.o [5]
+  .rodata             const    0x08008fda      0x2  sicslowpan.o [1]
+  .text               ro code  0x08008fdc     0x58  memchr.o [5]
+  .text               ro code  0x08009034   0x11fc  SPIRIT_Radio.o [1]
+  .text               ro code  0x0800a230     0x14  SPIRIT_General.o [1]
+  .text               ro code  0x0800a244    0x5c0  SDK_EVAL_Spirit_Spi_Driver.o [1]
+  .text               ro code  0x0800a804     0x32  I32ToFlt.o [4]
+  .text               ro code  0x0800a838     0xd8  FltMul.o [4]
+  .text               ro code  0x0800a910     0x4e  FltToDbl.o [4]
+  .text               ro code  0x0800a960    0x246  DblDiv.o [4]
+  .text               ro code  0x0800aba8     0x58  DblToI32.o [4]
+  .text               ro code  0x0800ac00     0xb4  rtimer-arch.o [1]
+  .text               ro code  0x0800acb4     0xac  spirit1-arch.o [1]
+  .text               ro code  0x0800ad60     0xfc  FltDiv.o [4]
+  .text               ro code  0x0800ae5c     0x44  FltToS32.o [4]
+  .text               ro code  0x0800aea0     0x40  lroundf.o [4]
+  .text               ro code  0x0800aee0     0x84  FltAdd.o [4]
+  .text               ro code  0x0800af64     0x24  FltToU32.o [4]
+  .text               ro code  0x0800af88    0x410  SPIRIT_Management.o [1]
+  .text               ro code  0x0800b398     0x30  I32ToDbl.o [4]
+  .text               ro code  0x0800b3c8    0x1a2  DblMul.o [4]
+  .text               ro code  0x0800b56c     0xe8  DblAdd.o [4]
+  .text               ro code  0x0800b654     0x90  DblToFlt.o [4]
+  .text               ro code  0x0800b6e4    0x160  SPIRIT_Calibration.o [1]
+  .text               ro code  0x0800b844     0xe6  FltSub.o [4]
+  .text               ro code  0x0800b92c     0x24  FltCmpGe.o [4]
+  .text               ro code  0x0800b950    0x180  DblSub.o [4]
+  .text               ro code  0x0800bad0     0x2e  DblCmpGe.o [4]
+  .text               ro code  0x0800bb00    0x1dc  stm32l1xx_rcc.o [1]
+  .text               ro code  0x0800bcdc    0x106  stm32l1xx_gpio.o [1]
+  .text               ro code  0x0800bde4     0xb6  stm32l1xx_spi.o [1]
+  .text               ro code  0x0800be9c    0x120  stm32l1xx_tim.o [1]
+  .text               ro code  0x0800bfbc     0xcc  stm32l1xx_exti.o [1]
+  .text               ro code  0x0800c088    0x9fc  spirit1.o [1]
+  .text               ro code  0x0800ca84     0x38  roundf.o [4]
+  .text               ro code  0x0800cabc     0x24  FltCmpLe.o [4]
+  .text               ro code  0x0800cae0      0xc  errno.o [3]
+  .text               ro code  0x0800caec     0x24  SPIRIT_Types.o [1]
+  .text               ro code  0x0800cb10     0x24  SPIRIT_Commands.o [1]
+  .text               ro code  0x0800cb34    0x140  SPIRIT_Irq.o [1]
+  .text               ro code  0x0800cc74    0x104  SDK_EVAL_Spirit_Gpio.o [1]
+  .text               ro code  0x0800cd78     0x8c  SDK_EVAL_Led.o [1]
+  .text               ro code  0x0800ce04    0x1f8  SPIRIT_PktBasic.o [1]
+  .text               ro code  0x0800cffc     0xf8  SPIRIT_Qi.o [1]
+  .text               ro code  0x0800d0f4     0x90  SPIRIT_Timer.o [1]
+  .text               ro code  0x0800d184     0x34  SPIRIT_Gpio.o [1]
+  .text               ro code  0x0800d1b8    0x354  frame802154.o [1]
+  .text               ro code  0x0800d50c     0x2c  SPIRIT_LinearFifo.o [1]
+  .text               ro code  0x0800d538     0xb4  SPIRIT_PktCommon.o [1]
+  .text               ro code  0x0800d5ec     0x50  xfdint.o [4]
+  .text               ro code  0x0800d63c     0x7c  stm32l1xx_syscfg.o [1]
+  .text               ro code  0x0800d6b8    0xcae  usb_core.o [1]
+  .text               ro code  0x0800e368    0x2be  usb_regs.o [1]
+  .text               ro code  0x0800e626     0x6e  usb_mem.o [1]
+  .text               ro code  0x0800e694    0x7f8  aes.o [1]
+  .text               ro code  0x0800ee8c    0x522  aes-ccm.o [1]
+  .text               ro code  0x0800f3b0    0x498  SDK_EVAL_PM.o [1]
+  .text               ro code  0x0800f848    0x22a  stm32l1xx_i2c.o [1]
+  .text               ro code  0x0800fa74    0x228  stm32l1xx_adc.o [1]
+  .text               ro code  0x0800fc9c    0x3a8  contiki-spirit1-main.o [1]
+  .text               ro code  0x08010044     0x24  stm32l1xx_dbgmcu.o [1]
+  .text               ro code  0x08010068    0x280  SDK_EVAL_VC_General.o [1]
+  .text               ro code  0x080102e8      0x8  rtimer.o [1]
+  .text               ro code  0x080102f0     0xb4  leds.o [1]
+  .text               ro code  0x080103a4     0x54  node-id.o [1]
+  .text               ro code  0x080103f8     0x30  netstack.o [1]
+  .text               ro code  0x08010428    0x1ec  netstack-aes.o [1]
+  .text               ro code  0x08010614     0x20  autostart.o [1]
+  .text               ro code  0x08010634     0x28  putchar.o [3]
+  .text               ro code  0x0801065c     0x40  usb_init.o [1]
+  .text               ro code  0x0801069c     0x70  leds-arch.o [1]
+  .text               ro code  0x0801070c    0x37c  csma.o [1]
+  .text               ro code  0x08010a88     0x28  mac.o [1]
+  .text               ro code  0x08010ab0    0x284  nullrdc.o [1]
+  .text               ro code  0x08010d34    0x268  SDK_EVAL_VC_Prop.o [1]
+  .text               ro code  0x08010f9c     0x48  SDK_EVAL_VC_Pwr.o [1]
+  .text               ro code  0x08010fe4     0x54  usb_sil.o [1]
+  .text               ro code  0x08011038    0x250  usb_int.o [1]
+  .text               ro code  0x08011288    0x200  framer-802154.o [1]
+  .text               ro code  0x08011488    0x1d8  udp-socket.o [1]
+  .text               ro code  0x08011660     0x92  uip-udp-packet.o [1]
+  .text               ro code  0x080116f4    0x174  system_stm32l1xx.o [1]
+  .text               ro code  0x08011868    0x170  rpl-of-etx.o [1]
+  .text               ro code  0x080119d8    0x164  udp-multicast.o [1]
+  .rodata             const    0x08011b3c    0x100  aes.o [1]
+  .text               ro code  0x08011c3c     0xe8  SDK_EVAL_VC_Endp.o [1]
+  .rodata             const    0x08011d24     0xb4  SPIRIT_Radio.o [1]
+  .text               ro code  0x08011dd8     0xa0  packbits_init3.o [5]
+  .text               ro code  0x08011e78     0x74  SDK_EVAL_VC_Istr.o [1]
+  .rodata             const    0x08011eec     0x70  SDK_EVAL_VC_Desc.o [1]
+  .rodata             const    0x08011f5c     0x44  SDK_EVAL_VC_Desc.o [1]
+  .rodata             const    0x08011fa0     0x3c  udp-multicast.o [1]
+  .rodata             const    0x08011fdc     0x30  netstack-aes.o [1]
+  .rodata             const    0x0801200c     0x30  udp-multicast.o [1]
+  .text               ro code  0x0801203c     0x2e  stm32l1xx_it.o [1]
+  .rodata             const    0x0801206c     0x2c  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012098     0x2c  netstack-aes.o [1]
+  .rodata             const    0x080120c4     0x2c  netstack-aes.o [1]
+  .rodata             const    0x080120f0     0x2c  spirit1.o [1]
+  .rodata             const    0x0801211c     0x2c  spirit1.o [1]
+  .text               ro code  0x08012148     0x2c  data_init3.o [5]
+  .rodata             const    0x08012174     0x28  SDK_EVAL_VC_Desc.o [1]
+  .rodata             const    0x0801219c     0x28  netstack-aes.o [1]
+  .rodata             const    0x080121c4     0x28  netstack-aes.o [1]
+  .rodata             const    0x080121ec     0x28  udp-multicast.o [1]
+  .iar.init_table     const    0x08012214     0x2c  - Linker created -
+  .rodata             const    0x08012240     0x20  SPIRIT_Radio.o [1]
+  .rodata             const    0x08012260     0x20  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012280     0x20  contiki-spirit1-main.o [1]
+  .rodata             const    0x080122a0     0x20  nullrdc.o [1]
+  .rodata             const    0x080122c0     0x20  spirit1.o [1]
+  .rodata             const    0x080122e0     0x1c  contiki-spirit1-main.o [1]
+  .rodata             const    0x080122fc     0x1c  csma.o [1]
+  .rodata             const    0x08012318     0x1c  spirit1.o [1]
+  .rodata             const    0x08012334     0x18  spirit1.o [1]
+  .text               ro code  0x0801234c     0x16  cmain.o [5]
+  .text               ro code  0x08012362      0x4  low_level_init.o [3]
+  .text               ro code  0x08012366      0x4  exit.o [3]
+  .text               ro code  0x0801236c      0xa  cexit.o [5]
+  .text               ro code  0x08012378     0x14  exit.o [6]
+  .text               ro code  0x0801238c     0x16  xprout.o [3]
+  .rodata             const    0x080123a4     0x14  SDK_EVAL_Led.o [1]
+  .rodata             const    0x080123b8     0x14  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x080123cc     0x14  SDK_EVAL_VC_Desc.o [1]
+  .rodata             const    0x080123e0     0x14  contiki-spirit1-main.o [1]
+  .rodata             const    0x080123f4     0x14  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012408     0x14  sicslowpan.o [1]
+  .rodata             const    0x0801241c     0x14  spirit1.o [1]
+  .rodata             const    0x08012430     0x14  udp-multicast.o [1]
+  .rodata             const    0x08012444     0x14  udp-socket.o [1]
+  .rodata             const    0x08012458     0x10  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x08012468     0x10  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012478     0x10  ctimer.o [1]
+  .rodata             const    0x08012488     0x10  spirit1.o [1]
+  .rodata             const    0x08012498     0x10  tcpip.o [1]
+  .text               ro code  0x080124a8     0x10  startup_stm32l1xx_md.o [1]
+  .rodata             const    0x080124b8      0xc  SDK_EVAL_Led.o [1]
+  .rodata             const    0x080124c4      0xc  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x080124d0      0xc  aes.o [1]
+  .rodata             const    0x080124dc      0xc  contiki-spirit1-main.o [1]
+  .rodata             const    0x080124e8      0xc  contiki-spirit1-main.o [1]
+  .rodata             const    0x080124f4      0xc  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012500      0xc  contiki-spirit1-main.o [1]
+  .rodata             const    0x0801250c      0xc  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012518      0xc  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012524      0xc  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012530      0xc  etimer.o [1]
+  .rodata             const    0x0801253c      0xc  sicslowpan.o [1]
+  .rodata             const    0x08012548      0xc  sicslowpan.o [1]
+  .rodata             const    0x08012554      0xc  sicslowpan.o [1]
+  .rodata             const    0x08012560      0xc  spirit1.o [1]
+  .text               ro code  0x0801256c      0xc  cstartup_M.o [5]
+  .rodata             const    0x08012578      0x8  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x08012580      0x8  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x08012588      0x8  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x08012590      0x8  contiki-spirit1-main.o [1]
+  .rodata             const    0x08012598      0x8  csma.o [1]
+  .rodata             const    0x080125a0      0x8  framer-802154.o [1]
+  .rodata             const    0x080125a8      0x8  nullrdc.o [1]
+  .rodata             const    0x080125b0      0x8  rimeaddr.o [1]
+  .rodata             const    0x080125b8      0x8  spirit1.o [1]
+  .rodata             const    0x080125c0      0x8  spirit1.o [1]
+  .rodata             const    0x080125c8      0x8  spirit1.o [1]
+  .rodata             const    0x080125d0      0x8  udp-multicast.o [1]
+  .rodata             const    0x080125d8      0x8  udp-multicast.o [1]
+  .rodata             const    0x080125e0      0x4  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x080125e4      0x4  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x080125e8      0x4  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x080125ec      0x4  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x080125f0      0x4  SDK_EVAL_Spirit_Gpio.o [1]
+  .rodata             const    0x080125f4      0x4  SDK_EVAL_VC_Desc.o [1]
+  .rodata             const    0x080125f8      0x4  SPIRIT_Management.o [1]
+  .rodata             const    0x080125fc      0x4  SPIRIT_Management.o [1]
+  .rodata             const    0x08012600      0x4  SPIRIT_Radio.o [1]
+  .rodata             const    0x08012604      0x4  SPIRIT_Radio.o [1]
+  .rodata             const    0x08012608      0x4  rpl-dag.o [1]
+  .rodata             const    0x0801260c      0x4  sicslowpan.o [1]
+  .rodata             const    0x08012610      0x4  sicslowpan.o [1]
+  .rodata             const    0x08012614      0x4  sicslowpan.o [1]
+  .rodata             const    0x08012618      0x4  sicslowpan.o [1]
+  .rodata             const    0x0801261c      0x4  spirit1.o [1]
+  .rodata             const    0x08012620      0x4  spirit1.o [1]
+  .text               ro code  0x08012624      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012628      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801262c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012630      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012634      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012638      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801263c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012640      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012644      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012648      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801264c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012650      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012654      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012658      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801265c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012660      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012664      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012668      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801266c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012670      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012674      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012678      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801267c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012680      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012684      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012688      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801268c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012690      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012694      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x08012698      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0801269c      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126a0      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126a4      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126a8      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126ac      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126b0      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126b4      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126b8      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126bc      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126c0      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126c4      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126c8      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126cc      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126d0      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126d4      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126d8      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126dc      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126e0      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126e4      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126e8      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126ec      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126f0      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126f4      0x4  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x080126f8      0x4  startup_stm32l1xx_md.o [1]
+  .rodata             const    0x080126fc      0x0  bwt_init3c.o [5]
+  Initializer bytes   ro data  0x080126fc    0x240  <for P2 s0>
+                             - 0x0801293c  0x12848
+
+"P2", part 1 of 3:                           0x308
+  P2 s0                        0x20000000    0x306  <Init block>
+    __DLIB_PERTHREAD  inited   0x20000000     0x8c  rand.o [3]
+    .data             inited   0x2000008c     0x30  SDK_EVAL_VC_Prop.o [1]
+    .data             inited   0x200000bc     0x24  SDK_EVAL_VC_Prop.o [1]
+    .data             inited   0x200000e0     0x20  SDK_EVAL_VC_Prop.o [1]
+    .data             inited   0x20000100     0x1c  SDK_EVAL_VC_Desc.o [1]
+    .data             inited   0x2000011c     0x1c  SDK_EVAL_VC_Istr.o [1]
+    .data             inited   0x20000138     0x1c  SDK_EVAL_VC_Istr.o [1]
+    .data             inited   0x20000154     0x1c  rpl-of-etx.o [1]
+    .data             inited   0x20000170     0x14  SDK_EVAL_Led.o [1]
+    .data             inited   0x20000184     0x14  SDK_EVAL_Spirit_Gpio.o [1]
+    .data             inited   0x20000198     0x10  ctimer.o [1]
+    .data             inited   0x200001a8     0x10  etimer.o [1]
+    .data             inited   0x200001b8     0x10  neighbor-info.o [1]
+    .data             inited   0x200001c8     0x10  neighbor-info.o [1]
+    .data             inited   0x200001d8     0x10  spirit1.o [1]
+    .data             inited   0x200001e8     0x10  stm32l1xx_rcc.o [1]
+    .data             inited   0x200001f8     0x10  tcpip.o [1]
+    .data             inited   0x20000208     0x10  udp-multicast.o [1]
+    .data             inited   0x20000218     0x10  udp-socket.o [1]
+    .data             inited   0x20000228      0xc  SPIRIT_Management.o [1]
+    .data             inited   0x20000234      0xc  csma.o [1]
+    .data             inited   0x20000240      0xc  csma.o [1]
+    .data             inited   0x2000024c      0xc  csma.o [1]
+    .data             inited   0x20000258      0xc  neighbor-attr.o [1]
+    .data             inited   0x20000264      0xc  queuebuf.o [1]
+    .data             inited   0x20000270      0xc  queuebuf.o [1]
+    .data             inited   0x2000027c      0xc  queuebuf.o [1]
+    .data             inited   0x20000288      0xc  rpl-dag.o [1]
+    .data             inited   0x20000294      0xc  stm32l1xx_rcc.o [1]
+    .data             inited   0x200002a0      0xc  uip-ds6-route.o [1]
+    .data             inited   0x200002ac      0xc  uip-ds6-route.o [1]
+    .data             inited   0x200002b8      0x8  SDK_EVAL_VC_Prop.o [1]
+    .data             inited   0x200002c0      0x8  SDK_EVAL_VC_Prop.o [1]
+    .data             inited   0x200002c8      0x8  SDK_EVAL_VC_Prop.o [1]
+    .data             inited   0x200002d0      0x4  SDK_EVAL_VC_Prop.o [1]
+    .data             inited   0x200002d4      0x4  csma.o [1]
+    .data             inited   0x200002d8      0x4  ctimer.o [1]
+    .data             inited   0x200002dc      0x4  neighbor-attr.o [1]
+    .data             inited   0x200002e0      0x4  neighbor-attr.o [1]
+    .data             inited   0x200002e4      0x4  packetbuf.o [1]
+    .data             inited   0x200002e8      0x4  spirit1.o [1]
+    .data             inited   0x200002ec      0x4  uip-ds6-route.o [1]
+    .data             inited   0x200002f0      0x4  uip-ds6-route.o [1]
+    .data             inited   0x200002f4      0x4  uip-ds6-route.o [1]
+    .data             inited   0x200002f8      0x2  SDK_EVAL_PM.o [1]
+    .data             inited   0x200002fa      0x2  SDK_EVAL_PM.o [1]
+    .data             inited   0x200002fc      0x2  SDK_EVAL_PM.o [1]
+    .data             inited   0x200002fe      0x2  SDK_EVAL_PM.o [1]
+    .data             inited   0x20000300      0x2  SDK_EVAL_PM.o [1]
+    .data             inited   0x20000302      0x2  SDK_EVAL_PM.o [1]
+    .data             inited   0x20000304      0x1  netstack-aes.o [1]
+    .data             inited   0x20000305      0x1  rpl-icmp6.o [1]
+                             - 0x20000306    0x306
+
+"P2", part 2 of 3:                          0x2ca0
+  .bss                zero     0x20000308    0x690  queuebuf.o [1]
+  .bss                zero     0x20000998    0x618  uip-ds6.o [1]
+  .bss                zero     0x20000fb0    0x460  uip-ds6-route.o [1]
+  .bss                zero     0x20001410    0x400  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20001810    0x400  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20001c10    0x280  rpl-dag.o [1]
+  .bss                zero     0x20001e90    0x180  uip6.o [1]
+  .bss                zero     0x20002010    0x118  sicslowpan.o [1]
+  .bss                zero     0x20002128    0x118  udp-socket.o [1]
+  .bss                zero     0x20002240    0x118  uip6.o [1]
+  .bss                zero     0x20002358    0x108  uip-ds6.o [1]
+  .bss                zero     0x20002460     0xf4  rpl-dag.o [1]
+  .bss                zero     0x20002554     0xc0  neighbor-attr.o [1]
+  .bss                zero     0x20002614     0xc0  uip6.o [1]
+  .bss                zero     0x200026d4     0xb4  packetbuf.o [1]
+  .bss                zero     0x20002788     0x84  netstack-aes.o [1]
+  .bss                zero     0x2000280c     0x78  queuebuf.o [1]
+  .bss                zero     0x20002884     0x70  csma.o [1]
+  .bss                zero     0x200028f4     0x64  spirit1.o [1]
+  .bss                zero     0x20002958     0x60  csma.o [1]
+  .bss                zero     0x200029b8     0x60  csma.o [1]
+  .bss                zero     0x20002a18     0x60  process.o [1]
+  .bss                zero     0x20002a78     0x60  uip-ds6.o [1]
+  .bss                zero     0x20002ad8     0x48  nullrdc.o [1]
+  .bss                zero     0x20002b20     0x48  rimestats.o [1]
+  .bss                zero     0x20002b68     0x44  tcpip.o [1]
+  .bss                zero     0x20002bac     0x40  SDK_EVAL_VC_Endp.o [1]
+  .bss                zero     0x20002bec     0x40  uip-ds6-route.o [1]
+  .bss                zero     0x20002c2c     0x30  neighbor-info.o [1]
+  .bss                zero     0x20002c5c     0x30  packetbuf.o [1]
+  .bss                zero     0x20002c8c     0x20  packetbuf.o [1]
+  .bss                zero     0x20002cac     0x20  queuebuf.o [1]
+  .bss                zero     0x20002ccc     0x20  rpl-timers.o [1]
+  .bss                zero     0x20002cec     0x1c  usb_init.o [1]
+  .bss                zero     0x20002d08     0x14  sicslowpan.o [1]
+  .bss                zero     0x20002d1c     0x14  udp-multicast.o [1]
+  .bss                zero     0x20002d30     0x14  uip-ds6-route.o [1]
+  .bss                zero     0x20002d44     0x10  aes-ccm.o [1]
+  .bss                zero     0x20002d54     0x10  netstack-aes.o [1]
+  .bss                zero     0x20002d64     0x10  rpl-dag.o [1]
+  .bss                zero     0x20002d74     0x10  tcpip.o [1]
+  .bss                zero     0x20002d84     0x10  udp-multicast.o [1]
+  .bss                zero     0x20002d94     0x10  udp-multicast.o [1]
+  .bss                zero     0x20002da4     0x10  udp-multicast.o [1]
+  .bss                zero     0x20002db4     0x10  uip-ds6.o [1]
+  .bss                zero     0x20002dc4     0x10  uip-ds6.o [1]
+  .bss                zero     0x20002dd4     0x10  uip-icmp6.o [1]
+  .bss                zero     0x20002de4     0x10  uip6.o [1]
+  .bss                zero     0x20002df4      0xc  neighbor-attr.o [1]
+  .bss                zero     0x20002e00      0xc  neighbor-info.o [1]
+  .bss                zero     0x20002e0c      0xc  node-id.o [1]
+  .bss                zero     0x20002e18      0x8  csma.o [1]
+  .bss                zero     0x20002e20      0x8  csma.o [1]
+  .bss                zero     0x20002e28      0x8  node-id.o [1]
+  .bss                zero     0x20002e30      0x8  queuebuf.o [1]
+  .bss                zero     0x20002e38      0x8  queuebuf.o [1]
+  .bss                zero     0x20002e40      0x8  rimeaddr.o [1]
+  .bss                zero     0x20002e48      0x8  sicslowpan.o [1]
+  .bss                zero     0x20002e50      0x8  sicslowpan.o [1]
+  .bss                zero     0x20002e58      0x8  uip6.o [1]
+  .bss                zero     0x20002e60      0x4  SDK_EVAL_VC_Endp.o [1]
+  .bss                zero     0x20002e64      0x4  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20002e68      0x4  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20002e6c      0x4  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20002e70      0x4  SDK_EVAL_VC_Pwr.o [1]
+  .bss                zero     0x20002e74      0x4  SPIRIT_Management.o [1]
+  .bss                zero     0x20002e78      0x4  SPIRIT_Radio.o [1]
+  .bss                zero     0x20002e7c      0x4  SPIRIT_Types.o [1]
+  .bss                zero     0x20002e80      0x4  clock.o [1]
+  .bss                zero     0x20002e84      0x4  clock.o [1]
+  .bss                zero     0x20002e88      0x4  csma.o [1]
+  .bss                zero     0x20002e8c      0x4  ctimer.o [1]
+  .bss                zero     0x20002e90      0x4  etimer.o [1]
+  .bss                zero     0x20002e94      0x4  etimer.o [1]
+  .bss                zero     0x20002e98      0x4  neighbor-attr.o [1]
+  .bss                zero     0x20002e9c      0x4  neighbor-attr.o [1]
+  .bss                zero     0x20002ea0      0x4  neighbor-info.o [1]
+  .bss                zero     0x20002ea4      0x4  packetbuf.o [1]
+  .bss                zero     0x20002ea8      0x4  process.o [1]
+  .bss                zero     0x20002eac      0x4  process.o [1]
+  .bss                zero     0x20002eb0      0x4  process.o [1]
+  .bss                zero     0x20002eb4      0x4  process.o [1]
+  .bss                zero     0x20002eb8      0x4  process.o [1]
+  .bss                zero     0x20002ebc      0x4  rpl-dag.o [1]
+  .bss                zero     0x20002ec0      0x4  rtimer-arch.o [1]
+  .bss                zero     0x20002ec4      0x4  sicslowpan.o [1]
+  .bss                zero     0x20002ec8      0x4  sicslowpan.o [1]
+  .bss                zero     0x20002ecc      0x4  sicslowpan.o [1]
+  .bss                zero     0x20002ed0      0x4  sicslowpan.o [1]
+  .bss                zero     0x20002ed4      0x4  sicslowpan.o [1]
+  .bss                zero     0x20002ed8      0x4  spirit1.o [1]
+  .bss                zero     0x20002edc      0x4  spirit1.o [1]
+  .bss                zero     0x20002ee0      0x4  spirit1.o [1]
+  .bss                zero     0x20002ee4      0x4  spirit1.o [1]
+  .bss                zero     0x20002ee8      0x4  spirit1.o [1]
+  .bss                zero     0x20002eec      0x4  tcpip.o [1]
+  .bss                zero     0x20002ef0      0x4  uip-ds6-route.o [1]
+  .bss                zero     0x20002ef4      0x4  uip-ds6-route.o [1]
+  .bss                zero     0x20002ef8      0x4  uip-ds6-route.o [1]
+  .bss                zero     0x20002efc      0x4  uip-ds6.o [1]
+  .bss                zero     0x20002f00      0x4  uip-ds6.o [1]
+  .bss                zero     0x20002f04      0x4  uip-ds6.o [1]
+  .bss                zero     0x20002f08      0x4  uip-ds6.o [1]
+  .bss                zero     0x20002f0c      0x4  uip-ds6.o [1]
+  .bss                zero     0x20002f10      0x4  uip-nd6.o [1]
+  .bss                zero     0x20002f14      0x4  uip-nd6.o [1]
+  .bss                zero     0x20002f18      0x4  uip-nd6.o [1]
+  .bss                zero     0x20002f1c      0x4  uip-nd6.o [1]
+  .bss                zero     0x20002f20      0x4  uip6.o [1]
+  .bss                zero     0x20002f24      0x4  uip6.o [1]
+  .bss                zero     0x20002f28      0x4  uip6.o [1]
+  .bss                zero     0x20002f2c      0x4  uip6.o [1]
+  .bss                zero     0x20002f30      0x4  uip6.o [1]
+  .bss                zero     0x20002f34      0x4  uip6.o [1]
+  .bss                zero     0x20002f38      0x4  uip6.o [1]
+  .bss                zero     0x20002f3c      0x4  usb_core.o [1]
+  .bss                zero     0x20002f40      0x4  usb_init.o [1]
+  .bss                zero     0x20002f44      0x4  usb_init.o [1]
+  .bss                zero     0x20002f48      0x4  usb_init.o [1]
+  __DLIB_PERTHREAD    zero     0x20002f4c      0x4  errno.o [3]
+  .bss                zero     0x20002f50      0x2  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20002f52      0x2  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20002f54      0x2  SDK_EVAL_VC_Istr.o [1]
+  .bss                zero     0x20002f56      0x2  csma.o [1]
+  .bss                zero     0x20002f58      0x2  csma.o [1]
+  .bss                zero     0x20002f5a      0x2  node-id.o [1]
+  .bss                zero     0x20002f5c      0x2  packetbuf.o [1]
+  .bss                zero     0x20002f5e      0x2  packetbuf.o [1]
+  .bss                zero     0x20002f60      0x2  queuebuf.o [1]
+  .bss                zero     0x20002f62      0x2  rpl-timers.o [1]
+  .bss                zero     0x20002f64      0x2  sicslowpan.o [1]
+  .bss                zero     0x20002f66      0x2  sicslowpan.o [1]
+  .bss                zero     0x20002f68      0x2  sicslowpan.o [1]
+  .bss                zero     0x20002f6a      0x2  sicslowpan.o [1]
+  .bss                zero     0x20002f6c      0x2  uip-ds6-route.o [1]
+  .bss                zero     0x20002f6e      0x2  uip6.o [1]
+  .bss                zero     0x20002f70      0x2  uip6.o [1]
+  .bss                zero     0x20002f72      0x2  uip6.o [1]
+  .bss                zero     0x20002f74      0x2  uip6.o [1]
+  .bss                zero     0x20002f76      0x2  usb_init.o [1]
+  .bss                zero     0x20002f78      0x2  usb_int.o [1]
+  .bss                zero     0x20002f7a      0x2  usb_int.o [1]
+  .bss                zero     0x20002f7c      0x1  SDK_EVAL_VC_General.o [1]
+  .bss                zero     0x20002f7d      0x1  SDK_EVAL_VC_Istr.o [1]
+  .bss                zero     0x20002f7e      0x1  SDK_EVAL_VC_Prop.o [1]
+  .bss                zero     0x20002f7f      0x1  SPIRIT_General.o [1]
+  .bss                zero     0x20002f80      0x1  SPIRIT_Management.o [1]
+  .bss                zero     0x20002f81      0x1  SPIRIT_Management.o [1]
+  .bss                zero     0x20002f82      0x1  contiki-spirit1-main.o [1]
+  .bss                zero     0x20002f83      0x1  ctimer.o [1]
+  .bss                zero     0x20002f84      0x1  framer-802154.o [1]
+  .bss                zero     0x20002f85      0x1  framer-802154.o [1]
+  .bss                zero     0x20002f86      0x1  leds.o [1]
+  .bss                zero     0x20002f87      0x1  leds.o [1]
+  .bss                zero     0x20002f88      0x1  netstack-aes.o [1]
+  .bss                zero     0x20002f89      0x1  packetbuf.o [1]
+  .bss                zero     0x20002f8a      0x1  process.o [1]
+  .bss                zero     0x20002f8b      0x1  process.o [1]
+  .bss                zero     0x20002f8c      0x1  process.o [1]
+  .bss                zero     0x20002f8d      0x1  process.o [1]
+  .bss                zero     0x20002f8e      0x1  process.o [1]
+  .bss                zero     0x20002f8f      0x1  process.o [1]
+  .bss                zero     0x20002f90      0x1  process.o [1]
+  .bss                zero     0x20002f91      0x1  rpl-timers.o [1]
+  .bss                zero     0x20002f92      0x1  sicslowpan.o [1]
+  .bss                zero     0x20002f93      0x1  sicslowpan.o [1]
+  .bss                zero     0x20002f94      0x1  sicslowpan.o [1]
+  .bss                zero     0x20002f95      0x1  spirit1.o [1]
+  .bss                zero     0x20002f96      0x1  spirit1.o [1]
+  .bss                zero     0x20002f97      0x1  tcpip.o [1]
+  .bss                zero     0x20002f98      0x1  tcpip.o [1]
+  .bss                zero     0x20002f99      0x1  tcpip.o [1]
+  .bss                zero     0x20002f9a      0x1  tcpip.o [1]
+  .bss                zero     0x20002f9b      0x1  udp-socket.o [1]
+  .bss                zero     0x20002f9c      0x1  uip-ds6.o [1]
+  .bss                zero     0x20002f9d      0x1  uip-ds6.o [1]
+  .bss                zero     0x20002f9e      0x1  uip-nd6.o [1]
+  .bss                zero     0x20002f9f      0x1  uip6.o [1]
+  .bss                zero     0x20002fa0      0x1  uip6.o [1]
+  .bss                zero     0x20002fa1      0x1  uip6.o [1]
+  .bss                zero     0x20002fa2      0x1  uip6.o [1]
+  .bss                zero     0x20002fa3      0x1  uip6.o [1]
+  .bss                zero     0x20002fa4      0x1  uip6.o [1]
+  .bss                zero     0x20002fa5      0x1  usb_core.o [1]
+  .bss                zero     0x20002fa6      0x1  usb_init.o [1]
+                             - 0x20002fa7   0x2c9f
+
+"P2", part 3 of 3:                           0x800
+  CSTACK                       0x20002fa8    0x800  <Block>
+    CSTACK            uninit   0x20002fa8    0x800  <Block tail>
+                             - 0x200037a8    0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2c9f:
+          0x20000308  0x2c9f
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x240 (74% of destination):
+          0x080126fc   0x240
+    1 destination range, total size 0x306:
+          0x20000000   0x306
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                        ro code  ro data  rw data
+    ------                        -------  -------  -------
+C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj: [1]
+    SDK_EVAL_Led.o                    140       47       20
+    SDK_EVAL_PM.o                   1 176       11       12
+    SDK_EVAL_Spirit_Gpio.o            260      107       20
+    SDK_EVAL_Spirit_Spi_Driver.o    1 472
+    SDK_EVAL_VC_Desc.o                         265       28
+    SDK_EVAL_VC_Endp.o                232                68
+    SDK_EVAL_VC_General.o             640             2 065
+    SDK_EVAL_VC_Istr.o                116       42       59
+    SDK_EVAL_VC_Prop.o                616      107      145
+    SDK_EVAL_VC_Pwr.o                  72                 4
+    SPIRIT_Calibration.o              352
+    SPIRIT_Commands.o                  36
+    SPIRIT_General.o                   20                 1
+    SPIRIT_Gpio.o                      52
+    SPIRIT_Irq.o                      320
+    SPIRIT_LinearFifo.o                44
+    SPIRIT_Management.o             1 040       17       18
+    SPIRIT_PktBasic.o                 504
+    SPIRIT_PktCommon.o                180
+    SPIRIT_Qi.o                       248
+    SPIRIT_Radio.o                  4 604      220        4
+    SPIRIT_Timer.o                    144
+    SPIRIT_Types.o                     36                 4
+    aes-ccm.o                       1 314                16
+    aes.o                           2 040      268
+    autostart.o                        32
+    clock.o                           120                 8
+    contiki-spirit1-main.o            936      284        1
+    csma.o                            892       66      368
+    ctimer.o                          380       31       25
+    energest.o                          4
+    etimer.o                          568       24       24
+    frame802154.o                     852
+    framer-802154.o                   512       12        2
+    leds-arch.o                       112
+    leds.o                            180                 2
+    list.o                            206
+    mac.o                              40
+    memb.o                            170
+    misc.o                            172
+    neighbor-attr.o                   436       15      232
+    neighbor-info.o                   336       24       96
+    netstack-aes.o                    492      217      150
+    netstack.o                         48
+    node-id.o                          84                22
+    nullrdc.o                         644       40       72
+    packetbuf.o                       684        3      273
+    process.o                         856               123
+    queuebuf.o                        328       27    1 886
+    random.o                           24
+    rimeaddr.o                         84        8        8
+    rimestats.o                                          72
+    rpl-dag.o                       3 636       13      916
+    rpl-ext-header.o                1 228
+    rpl-icmp6.o                     2 904        1        1
+    rpl-of-etx.o                      368       20       28
+    rpl-timers.o                      528                35
+    rpl.o                             616
+    rtimer-arch.o                     180                 4
+    rtimer.o                            8
+    sicslowpan.o                    5 636       76      347
+    spirit1-arch.o                    172
+    spirit1.o                       2 556      267      142
+    startup_stm32l1xx_md.o            476
+    stimer.o                           50
+    stm32l1xx_adc.o                   552
+    stm32l1xx_dbgmcu.o                 36
+    stm32l1xx_exti.o                  204
+    stm32l1xx_gpio.o                  262
+    stm32l1xx_i2c.o                   554
+    stm32l1xx_it.o                     46
+    stm32l1xx_rcc.o                   476       21       28
+    stm32l1xx_spi.o                   182
+    stm32l1xx_syscfg.o                124
+    stm32l1xx_systick.o               100
+    stm32l1xx_tim.o                   288
+    system_stm32l1xx.o                372
+    tcpip.o                         1 312       27      108
+    timer.o                            68
+    udp-multicast.o                   356      196       84
+    udp-socket.o                      472       32      297
+    uip-ds6-route.o                   832       26    1 254
+    uip-ds6.o                       2 688             1 974
+    uip-icmp6.o                     1 028                16
+    uip-nd6.o                       2 276                17
+    uip-udp-packet.o                  146
+    uip6.o                          7 228               922
+    uiplib.o                           22
+    usb_core.o                      3 246                 5
+    usb_init.o                         64                43
+    usb_int.o                         592                 4
+    usb_mem.o                         110
+    usb_regs.o                        702
+    usb_sil.o                          84
+    watchdog.o                          8
+    websocket.o                        22
+    xmac.o                             22
+    -------------------------------------------------------
+    Total:                         67 682    2 514   12 053
+
+command line: [2]
+    -------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    errno.o                            12                 4
+    exit.o                              4
+    low_level_init.o                    4
+    printf.o                           36
+    putchar.o                          40
+    rand.o                            196      104      140
+    srand.o                            32
+    xprintfsmall.o                  1 188
+    xprout.o                           22
+    xtls.o                              2
+    -------------------------------------------------------
+    Total:                          1 536      104      144
+
+m7M_tl.a: [4]
+    DblAdd.o                          232
+    DblCmpGe.o                         46
+    DblDiv.o                          582
+    DblMul.o                          418
+    DblSub.o                          384
+    DblToFlt.o                        144
+    DblToI32.o                         88
+    FltAdd.o                          132
+    FltCmpGe.o                         36
+    FltCmpLe.o                         36
+    FltDiv.o                          252
+    FltMul.o                          216
+    FltSub.o                          230
+    FltToDbl.o                         78
+    FltToS32.o                         68
+    FltToU32.o                         36
+    I32ToDbl.o                         48
+    I32ToFlt.o                         50
+    lroundf.o                          64
+    roundf.o                           56
+    xfdint.o                           80
+    -------------------------------------------------------
+    Total:                          3 276
+
+rt7M_tl.a: [5]
+    ABImemcpy.o                       118
+    ABImemmove.o                      120
+    ABImemset.o                       102
+    bwt_init3c.o
+    cexit.o                            10
+    cmain.o                            22
+    cstartup_M.o                       12
+    data_init3.o                       44
+    memchr.o                           88
+    memcmp.o                           98
+    packbits_init3.o                  160
+    strchr.o                           22
+    strlen.o                           54
+    zero_init3.o                       34
+    -------------------------------------------------------
+    Total:                            884
+
+shb_l.a: [6]
+    exit.o                             20
+    -------------------------------------------------------
+    Total:                             20
+
+    Gaps                               28        4
+    Linker created                              44    2 048
+-----------------------------------------------------------
+    Grand Total:                   73 426    2 666   14 245
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x0801234d          Code  Gb  cmain.o [5]
+ADC1_IRQHandler         0x08012691          Code  Wk  startup_stm32l1xx_md.o [1]
+ADC_Cmd                 0x0800fac5    0x1a  Code  Gb  stm32l1xx_adc.o [1]
+ADC_GetConversionValue  0x0800fc7d     0x6  Code  Gb  stm32l1xx_adc.o [1]
+ADC_GetFlagStatus       0x0800fc83    0x1a  Code  Gb  stm32l1xx_adc.o [1]
+ADC_Init                0x0800fa75    0x50  Code  Gb  stm32l1xx_adc.o [1]
+ADC_RegularChannelConfig
+                        0x0800fae9   0x18a  Code  Gb  stm32l1xx_adc.o [1]
+ADC_SoftwareStartConv   0x0800fc73     0xa  Code  Gb  stm32l1xx_adc.o [1]
+APBAHBPrescTable        0x200001e8    0x10  Data  Lc  stm32l1xx_rcc.o [1]
+BusFault_Handler        0x0800ff85    0x10  Code  Gb  contiki-spirit1-main.o [1]
+ByteSwap                0x0800e611    0x16  Code  Gb  usb_regs.o [1]
+COMP_IRQHandler         0x080126a1          Code  Wk  startup_stm32l1xx_md.o [1]
+CSTACK$$Base            0x20002fa8           --   Gb  - Linker created -
+CSTACK$$Limit           0x200037a8           --   Gb  - Linker created -
+CTR_LP                  0x08011039   0x22e  Code  Gb  usb_int.o [1]
+ClearDTOG_RX            0x0800e495    0x32  Code  Gb  usb_regs.o [1]
+ClearDTOG_TX            0x0800e4c7    0x32  Code  Gb  usb_regs.o [1]
+Clear_Status_Out        0x0800e46f    0x26  Code  Gb  usb_regs.o [1]
+Config_Descriptor       0x200002c8     0x8  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+DAC_IRQHandler          0x0801269d          Code  Wk  startup_stm32l1xx_md.o [1]
+DBGMCU_Config           0x08010045    0x1e  Code  Gb  stm32l1xx_dbgmcu.o [1]
+DMA1_Channel1_IRQHandler
+                        0x08012675          Code  Wk  startup_stm32l1xx_md.o [1]
+DMA1_Channel2_IRQHandler
+                        0x08012679          Code  Wk  startup_stm32l1xx_md.o [1]
+DMA1_Channel3_IRQHandler
+                        0x0801267d          Code  Wk  startup_stm32l1xx_md.o [1]
+DMA1_Channel4_IRQHandler
+                        0x08012681          Code  Wk  startup_stm32l1xx_md.o [1]
+DMA1_Channel5_IRQHandler
+                        0x08012685          Code  Wk  startup_stm32l1xx_md.o [1]
+DMA1_Channel6_IRQHandler
+                        0x08012689          Code  Wk  startup_stm32l1xx_md.o [1]
+DMA1_Channel7_IRQHandler
+                        0x0801268d          Code  Wk  startup_stm32l1xx_md.o [1]
+DataStageIn             0x0800dc45    0xca  Code  Lc  usb_core.o [1]
+DataStageOut            0x0800db85    0xc0  Code  Lc  usb_core.o [1]
+Data_Mul_MaxPacketSize  0x20002fa5     0x1  Data  Gb  usb_core.o [1]
+Data_Setup0             0x0800de73   0x2d6  Code  Lc  usb_core.o [1]
+DebugMon_Handler        0x0800ff95    0x10  Code  Gb  contiki-spirit1-main.o [1]
+Device_Descriptor       0x200002c0     0x8  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+Device_Info             0x20002cec    0x1c  Data  Gb  usb_init.o [1]
+Device_Property         0x2000008c    0x30  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+Device_Table            0x200002d0     0x4  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+EP1_IN_Callback         0x08011c3d    0x88  Code  Gb  SDK_EVAL_VC_Endp.o [1]
+EP3_OUT_Callback        0x08011cc5    0x1e  Code  Gb  SDK_EVAL_VC_Endp.o [1]
+EPindex                 0x20002fa6     0x1  Data  Gb  usb_init.o [1]
+EXTI0_IRQHandler        0x08012661          Code  Wk  startup_stm32l1xx_md.o [1]
+EXTI15_10_IRQHandler    0x0800acb5    0x1c  Code  Gb  spirit1-arch.o [1]
+EXTI1_IRQHandler        0x08012665          Code  Wk  startup_stm32l1xx_md.o [1]
+EXTI2_IRQHandler        0x08012669          Code  Wk  startup_stm32l1xx_md.o [1]
+EXTI3_IRQHandler        0x0801266d          Code  Wk  startup_stm32l1xx_md.o [1]
+EXTI4_IRQHandler        0x08012671          Code  Wk  startup_stm32l1xx_md.o [1]
+EXTI9_5_IRQHandler      0x080126a5          Code  Wk  startup_stm32l1xx_md.o [1]
+EXTI_ClearITPendingBit  0x0800c06d     0x6  Code  Gb  stm32l1xx_exti.o [1]
+EXTI_GetITStatus        0x0800c045    0x28  Code  Gb  stm32l1xx_exti.o [1]
+EXTI_Init               0x0800bfbd    0x88  Code  Gb  stm32l1xx_exti.o [1]
+FLASH_IRQHandler        0x08012659          Code  Wk  startup_stm32l1xx_md.o [1]
+GPIO_Init               0x0800bcdd    0xa8  Code  Gb  stm32l1xx_gpio.o [1]
+GPIO_PinAFConfig        0x0800bd89    0x5a  Code  Gb  stm32l1xx_gpio.o [1]
+GPIO_ResetBits          0x0800bd85     0x4  Code  Gb  stm32l1xx_gpio.o [1]
+GetEPRxAddr             0x0800e55b    0x1a  Code  Gb  usb_regs.o [1]
+GetEPRxCount            0x0800e5df    0x18  Code  Gb  usb_regs.o [1]
+GetEPTxAddr             0x0800e541    0x1a  Code  Gb  usb_regs.o [1]
+HardFault_Handler       0x0800ffa5    0x10  Code  Gb  contiki-spirit1-main.o [1]
+I2C1_ER_IRQHandler      0x080126c9          Code  Wk  startup_stm32l1xx_md.o [1]
+I2C1_EV_IRQHandler      0x080126c5          Code  Wk  startup_stm32l1xx_md.o [1]
+I2C2_ER_IRQHandler      0x080126d1          Code  Wk  startup_stm32l1xx_md.o [1]
+I2C2_EV_IRQHandler      0x080126cd          Code  Wk  startup_stm32l1xx_md.o [1]
+I2C_CheckEvent          0x0800f9f5    0x38  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_Cmd                 0x0800f981    0x1c  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_DeInit              0x0800f849    0x36  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_GenerateSTART       0x0800f99d    0x1e  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_GenerateSTOP        0x0800f9bb    0x1e  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_GetFlagStatus       0x0800fa2d    0x46  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_Init                0x0800f87f    0xf2  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_Send7bitAddress     0x0800f9d9    0x16  Code  Gb  stm32l1xx_i2c.o [1]
+I2C_SendData            0x0800f9ef     0x6  Code  Gb  stm32l1xx_i2c.o [1]
+In0_Process             0x0800e1df    0x68  Code  Gb  usb_core.o [1]
+IntToUnicode            0x0801022b    0x40  Code  Lc  SDK_EVAL_VC_General.o [1]
+LCD_IRQHandler          0x080126a9          Code  Wk  startup_stm32l1xx_md.o [1]
+MemManage_Handler       0x0800ffb5    0x10  Code  Gb  contiki-spirit1-main.o [1]
+NMI_Handler             0x0801203d     0xa  Code  Gb  stm32l1xx_it.o [1]
+NOP_Process             0x0800e365     0x2  Code  Gb  usb_core.o [1]
+NVIC_Init               0x08006dff    0x68  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08006df5     0xa  Code  Gb  misc.o [1]
+NoData_Setup0           0x0800dd0f   0x164  Code  Lc  usb_core.o [1]
+Out0_Process            0x0800e247    0x4e  Code  Gb  usb_core.o [1]
+PLLMulTable             0x20000294     0xc  Data  Lc  stm32l1xx_rcc.o [1]
+PMAToUserBufferCopy     0x0800e667    0x2e  Code  Gb  usb_mem.o [1]
+PVD_IRQHandler          0x0801264d          Code  Wk  startup_stm32l1xx_md.o [1]
+PendSV_Handler          0x08012051     0xa  Code  Gb  stm32l1xx_it.o [1]
+Post0_Process           0x0800e2a1    0x3c  Code  Gb  usb_core.o [1]
+RCC_AHBPeriphClockCmd   0x0800bc15    0x1e  Code  Gb  stm32l1xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x0800bc51    0x1e  Code  Gb  stm32l1xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x0800bc8d    0x1e  Code  Gb  stm32l1xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x0800bc33    0x1e  Code  Gb  stm32l1xx_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x0800bc6f    0x1e  Code  Gb  stm32l1xx_rcc.o [1]
+RCC_GetClocksFreq       0x0800bb0b   0x10a  Code  Gb  stm32l1xx_rcc.o [1]
+RCC_HSICmd              0x0800bb01     0xa  Code  Gb  stm32l1xx_rcc.o [1]
+RCC_IRQHandler          0x0801265d          Code  Wk  startup_stm32l1xx_md.o [1]
+RTC_Alarm_IRQHandler    0x080126ed          Code  Wk  startup_stm32l1xx_md.o [1]
+RTC_WKUP_IRQHandler     0x08012655          Code  Wk  startup_stm32l1xx_md.o [1]
+Rcon                    0x080124d0     0xc  Data  Lc  aes.o [1]
+Region$$Table$$Base     0x08012214           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08012240           --   Gb  - Linker created -
+Request                 0x20002f7e     0x1  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+Reset_Handler           0x080124a9          Code  Wk  startup_stm32l1xx_md.o [1]
+SOF_Callback            0x08011ce3    0x24  Code  Gb  SDK_EVAL_VC_Endp.o [1]
+SPI1_IRQHandler         0x080126d5          Code  Wk  startup_stm32l1xx_md.o [1]
+SPI2_IRQHandler         0x080126d9          Code  Wk  startup_stm32l1xx_md.o [1]
+SPI_Cmd                 0x0800be5f    0x1c  Code  Gb  stm32l1xx_spi.o [1]
+SPI_I2S_DeInit          0x0800bde5    0x3c  Code  Gb  stm32l1xx_spi.o [1]
+SPI_I2S_GetFlagStatus   0x0800be83    0x18  Code  Gb  stm32l1xx_spi.o [1]
+SPI_I2S_ReceiveData     0x0800be7b     0x4  Code  Gb  stm32l1xx_spi.o [1]
+SPI_I2S_SendData        0x0800be7f     0x4  Code  Gb  stm32l1xx_spi.o [1]
+SPI_Init                0x0800be29    0x36  Code  Gb  stm32l1xx_spi.o [1]
+SVC_Handler             0x08012047     0xa  Code  Gb  stm32l1xx_it.o [1]
+SYSCFG_EXTILineConfig   0x0800d65f    0x50  Code  Gb  stm32l1xx_syscfg.o [1]
+SYSCFG_USBPuCmd         0x0800d63d    0x22  Code  Gb  stm32l1xx_syscfg.o [1]
+SaveRState              0x20002f78     0x2  Data  Gb  usb_int.o [1]
+SaveTState              0x20002f7a     0x2  Data  Gb  usb_int.o [1]
+SdkEvalLedInit          0x0800cd79    0x56  Code  Gb  SDK_EVAL_Led.o [1]
+SdkEvalLedOff           0x0800cde3    0x14  Code  Gb  SDK_EVAL_Led.o [1]
+SdkEvalLedOn            0x0800cdcf    0x14  Code  Gb  SDK_EVAL_Led.o [1]
+SdkEvalM2SGpioInit      0x0800cc75    0xac  Code  Gb  SDK_EVAL_Spirit_Gpio.o [1]
+SdkEvalM2SGpioInterruptCmd
+                        0x0800cd21    0x28  Code  Gb  SDK_EVAL_Spirit_Gpio.o [1]
+SdkEvalPmADCInit        0x0800f5c3    0x6c  Code  Gb  SDK_EVAL_PM.o [1]
+SdkEvalPmDigipotWrite   0x0800f451   0x172  Code  Gb  SDK_EVAL_PM.o [1]
+SdkEvalPmGetV           0x0800f62f    0x5e  Code  Gb  SDK_EVAL_PM.o [1]
+SdkEvalPmI2CInit        0x0800f3b1    0xa0  Code  Gb  SDK_EVAL_PM.o [1]
+SdkEvalPmRegulateVoltageI
+                        0x0800f68d   0x11e  Code  Gb  SDK_EVAL_PM.o [1]
+SdkEvalPmRfSwitchInit   0x0800f7ab    0x32  Code  Gb  SDK_EVAL_PM.o [1]
+SdkEvalPmRfSwitchToVRf  0x0800f7dd     0x8  Code  Gb  SDK_EVAL_PM.o [1]
+SdkEvalVCCableConfig    0x080100a9    0x1a  Code  Gb  SDK_EVAL_VC_General.o [1]
+SdkEvalVCGetSerialNum   0x080101fb    0x30  Code  Gb  SDK_EVAL_VC_General.o [1]
+SdkEvalVCInit           0x08010069    0x40  Code  Gb  SDK_EVAL_VC_General.o [1]
+SdkEvalVCIntServRoutine
+                        0x08011e79    0x74  Code  Gb  SDK_EVAL_VC_Istr.o [1]
+SdkEvalVCPortDataSetup  0x08010e59    0x64  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortGetConfigDescriptor
+                        0x08010ef5    0x10  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortGetDeviceDescriptor
+                        0x08010ee5    0x10  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortGetInterfaceSetting
+                        0x08010f2b    0x1a  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortGetLineCoding
+                        0x08010f45    0x18  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortGetStringDescriptor
+                        0x08010f05    0x26  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortInit       0x08010d35    0x1e  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortNoDataSetup
+                        0x08010ebd    0x28  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortReset      0x08010d53    0xdc  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortSetConfiguration
+                        0x08010e2f    0x10  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortSetDeviceAddress
+                        0x08010e3f     0x8  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortSetLineCoding
+                        0x08010f5d    0x18  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortStatusIn   0x08010e47    0x10  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPortStatusOut  0x08010e57     0x2  Code  Gb  SDK_EVAL_VC_Prop.o [1]
+SdkEvalVCPowerOn        0x08010f9d    0x3a  Code  Gb  SDK_EVAL_VC_Pwr.o [1]
+SdkEvalVCSendData       0x08010135    0xc6  Code  Gb  SDK_EVAL_VC_General.o [1]
+SetBTABLE               0x0800e369     0xe  Code  Gb  usb_regs.o [1]
+SetDeviceAddress        0x0800e2dd    0x48  Code  Gb  usb_core.o [1]
+SetEPRxAddr             0x0800e51d    0x24  Code  Gb  usb_regs.o [1]
+SetEPRxCount            0x0800e58f    0x50  Code  Gb  usb_regs.o [1]
+SetEPRxStatus           0x0800e3d3    0x3c  Code  Gb  usb_regs.o [1]
+SetEPRxValid            0x0800e43f    0x30  Code  Gb  usb_regs.o [1]
+SetEPTxAddr             0x0800e4f9    0x24  Code  Gb  usb_regs.o [1]
+SetEPTxCount            0x0800e575    0x1a  Code  Gb  usb_regs.o [1]
+SetEPTxStatus           0x0800e397    0x3c  Code  Gb  usb_regs.o [1]
+SetEPTxValid            0x0800e40f    0x30  Code  Gb  usb_regs.o [1]
+SetEPType               0x0800e377    0x20  Code  Gb  usb_regs.o [1]
+SetSysClock             0x08011749    0xf8  Code  Lc  system_stm32l1xx.o [1]
+Setup0_Process          0x0800e149    0x96  Code  Gb  usb_core.o [1]
+SpiritCalibrationGetVcoCalData
+                        0x0800b73b    0x26  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationSelectVco
+                        0x0800b7fd    0x48  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationSetVcoCalDataRx
+                        0x0800b7ad    0x4c  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationSetVcoCalDataTx
+                        0x0800b761    0x4c  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationVco    0x0800b6e5    0x56  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCmdStrobeCommand  0x0800cb11    0x24  Code  Gb  SPIRIT_Commands.o [1]
+SpiritGeneralGetSpiritVersion
+                        0x0800a237     0x6  Code  Gb  SPIRIT_General.o [1]
+SpiritGeneralSetSpiritVersion
+                        0x0800a231     0x6  Code  Gb  SPIRIT_General.o [1]
+SpiritGpioInit          0x0800d185    0x2e  Code  Gb  SPIRIT_Gpio.o [1]
+SpiritIrq               0x0800cb6d    0x94  Code  Gb  SPIRIT_Irq.o [1]
+SpiritIrqClearStatus    0x0800cc51    0x1e  Code  Gb  SPIRIT_Irq.o [1]
+SpiritIrqDeInit         0x0800cb35    0x38  Code  Gb  SPIRIT_Irq.o [1]
+SpiritIrqGetStatus      0x0800cc01    0x50  Code  Gb  SPIRIT_Irq.o [1]
+SpiritLinearFifoReadNumElementsRxFifo
+                        0x0800d50d    0x26  Code  Gb  SPIRIT_LinearFifo.o [1]
+SpiritManagementSetFrequencyBase
+                        0x0800afdf   0x204  Code  Gb  SPIRIT_Management.o [1]
+SpiritManagementSetVersion
+                        0x0800af91     0x8  Code  Gb  SPIRIT_Management.o [1]
+SpiritManagementSetXtalFrequency
+                        0x0800af89     0x8  Code  Gb  SPIRIT_Management.o [1]
+SpiritManagementWaTRxFcMem
+                        0x0800b335     0xc  Code  Gb  SPIRIT_Management.o [1]
+SpiritManagementWaVcoCalibration
+                        0x0800b1e3   0x14a  Code  Gb  SPIRIT_Management.o [1]
+SpiritPktBasicGetAddressField
+                        0x0800cf81    0x2e  Code  Gb  SPIRIT_PktBasic.o [1]
+SpiritPktBasicInit      0x0800ce05   0x17c  Code  Gb  SPIRIT_PktBasic.o [1]
+SpiritPktBasicSetPayloadLength
+                        0x0800cfaf    0x48  Code  Gb  SPIRIT_PktBasic.o [1]
+SpiritPktCommonFilterOnCrc
+                        0x0800d561    0x5a  Code  Gb  SPIRIT_PktCommon.o [1]
+SpiritPktCommonGetControlLength
+                        0x0800d539    0x28  Code  Gb  SPIRIT_PktCommon.o [1]
+SpiritPktCommonGetReceivedPktLength
+                        0x0800d5bb    0x2c  Code  Gb  SPIRIT_PktCommon.o [1]
+SpiritQiGetRssi         0x0800d0a3    0x22  Code  Gb  SPIRIT_Qi.o [1]
+SpiritQiSetRssiThresholddBm
+                        0x0800d0c5    0x2a  Code  Gb  SPIRIT_Qi.o [1]
+SpiritQiSetSqiThreshold
+                        0x0800d057    0x4c  Code  Gb  SPIRIT_Qi.o [1]
+SpiritQiSqiCheck        0x0800cffd    0x5a  Code  Gb  SPIRIT_Qi.o [1]
+SpiritRadioAFCFreezeOnSync
+                        0x0800a0d5    0x60  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetBand      0x0800960d    0x52  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetChannel   0x0800965f    0x24  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetChannelSpace
+                        0x08009683    0x40  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetFrequencyBase
+                        0x0800994d    0x52  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetFrequencyOffset
+                        0x080096c3    0x60  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetRefDiv    0x0800a1f1    0x32  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetSynthWord
+                        0x080095cb    0x42  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioInit         0x08009035   0x3ac  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioPersistenRx  0x0800a145    0x56  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSearchChannelBwME
+                        0x08009b31   0x37e  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSearchDatarateME
+                        0x080099ad   0x17c  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSearchFreqDevME
+                        0x08009ecd   0x11a  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSearchWCP    0x08009441   0x18a  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetFrequencyBase
+                        0x08009745   0x204  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetPALevelMaxIndex
+                        0x0800a071    0x50  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetPALeveldBm
+                        0x0800a009    0x62  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetRefDiv    0x0800a19b    0x56  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetXtalFlag  0x080093e1    0x60  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetXtalFrequency
+                        0x0800a223     0x6  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRefreshStatus     0x0800caed    0x24  Code  Gb  SPIRIT_Types.o [1]
+SpiritSetReadyState     0x0800c097    0x4a  Code  Gb  spirit1.o [1]
+SpiritSpiCommandStrobes
+                        0x0800a55d    0xb6  Code  Gb  SDK_EVAL_Spirit_Spi_Driver.o [1]
+SpiritSpiInit           0x0800a245   0x104  Code  Gb  SDK_EVAL_Spirit_Spi_Driver.o [1]
+SpiritSpiReadLinearFifo
+                        0x0800a701    0xf4  Code  Gb  SDK_EVAL_Spirit_Spi_Driver.o [1]
+SpiritSpiReadRegisters  0x0800a449   0x114  Code  Gb  SDK_EVAL_Spirit_Spi_Driver.o [1]
+SpiritSpiWriteLinearFifo
+                        0x0800a613    0xee  Code  Gb  SDK_EVAL_Spirit_Spi_Driver.o [1]
+SpiritSpiWriteRegisters
+                        0x0800a349   0x100  Code  Gb  SDK_EVAL_Spirit_Spi_Driver.o [1]
+SpiritTimerSetRxTimeoutCounter
+                        0x0800d0f5    0x20  Code  Gb  SPIRIT_Timer.o [1]
+SpiritTimerSetRxTimeoutStopCondition
+                        0x0800d115    0x6a  Code  Gb  SPIRIT_Timer.o [1]
+Standard_ClearFeature   0x0800d8fd   0x16e  Code  Gb  usb_core.o [1]
+Standard_GetConfiguration
+                        0x0800d6b9    0x2c  Code  Gb  usb_core.o [1]
+Standard_GetDescriptorData
+                        0x0800db59    0x2c  Code  Gb  usb_core.o [1]
+Standard_GetInterface   0x0800d733    0x2c  Code  Gb  usb_core.o [1]
+Standard_GetStatus      0x0800d7e3   0x11a  Code  Gb  usb_core.o [1]
+Standard_SetConfiguration
+                        0x0800d6e5    0x4e  Code  Gb  usb_core.o [1]
+Standard_SetDeviceFeature
+                        0x0800db35    0x24  Code  Gb  usb_core.o [1]
+Standard_SetEndPointFeature
+                        0x0800da6b    0xca  Code  Gb  usb_core.o [1]
+Standard_SetInterface   0x0800d75f    0x84  Code  Gb  usb_core.o [1]
+StatusInfo              0x20002f3c     0x4  Data  Gb  usb_core.o [1]
+String_Descriptor       0x200000e0    0x20  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+SysTick_CLKSourceConfig
+                        0x08006e67    0x20  Code  Gb  misc.o [1]
+SysTick_CounterCmd      0x08006ea7    0x2e  Code  Gb  stm32l1xx_systick.o [1]
+SysTick_Handler         0x0800532d    0x3a  Code  Gb  clock.o [1]
+SysTick_ITConfig        0x08006ed5    0x22  Code  Gb  stm32l1xx_systick.o [1]
+SysTick_SetReload       0x08006ea1     0x6  Code  Gb  stm32l1xx_systick.o [1]
+SystemInit              0x080116f5    0x54  Code  Gb  system_stm32l1xx.o [1]
+TAMPER_STAMP_IRQHandler
+                        0x08012651          Code  Wk  startup_stm32l1xx_md.o [1]
+TIM10_IRQHandler        0x080126b1          Code  Wk  startup_stm32l1xx_md.o [1]
+TIM11_IRQHandler        0x080126b5          Code  Wk  startup_stm32l1xx_md.o [1]
+TIM2_IRQHandler         0x0800ac01    0x18  Code  Gb  rtimer-arch.o [1]
+TIM3_IRQHandler         0x0800af99    0x46  Code  Gb  SPIRIT_Management.o [1]
+TIM4_IRQHandler         0x080126c1          Code  Wk  startup_stm32l1xx_md.o [1]
+TIM6_IRQHandler         0x080126f5          Code  Wk  startup_stm32l1xx_md.o [1]
+TIM7_IRQHandler         0x080126f9          Code  Wk  startup_stm32l1xx_md.o [1]
+TIM9_IRQHandler         0x080126ad          Code  Wk  startup_stm32l1xx_md.o [1]
+TIM_ClearFlag           0x0800bf7b     0x8  Code  Gb  stm32l1xx_tim.o [1]
+TIM_ClearITPendingBit   0x0800bfb5     0x8  Code  Gb  stm32l1xx_tim.o [1]
+TIM_Cmd                 0x0800bef5    0x1c  Code  Gb  stm32l1xx_tim.o [1]
+TIM_GetITStatus         0x0800bf83    0x32  Code  Gb  stm32l1xx_tim.o [1]
+TIM_ITConfig            0x0800bf65    0x16  Code  Gb  stm32l1xx_tim.o [1]
+TIM_OC1Init             0x0800bf11    0x42  Code  Gb  stm32l1xx_tim.o [1]
+TIM_OCStructInit        0x0800bf53    0x12  Code  Gb  stm32l1xx_tim.o [1]
+TIM_TimeBaseInit        0x0800be9d    0x48  Code  Gb  stm32l1xx_tim.o [1]
+USART1_IRQHandler       0x080126dd          Code  Wk  startup_stm32l1xx_md.o [1]
+USART2_IRQHandler       0x080126e1          Code  Wk  startup_stm32l1xx_md.o [1]
+USART3_IRQHandler       0x080126e5          Code  Wk  startup_stm32l1xx_md.o [1]
+USB_FS_WKUP_IRQHandler  0x080126f1          Code  Wk  startup_stm32l1xx_md.o [1]
+USB_HP_IRQHandler       0x08012063     0x8  Code  Gb  stm32l1xx_it.o [1]
+USB_HP_IRQHandlerS      0x08012695          Code  Wk  startup_stm32l1xx_md.o [1]
+USB_Init                0x0801065d    0x40  Code  Gb  usb_init.o [1]
+USB_LP_IRQHandler       0x0801205b     0x8  Code  Gb  stm32l1xx_it.o [1]
+USB_LP_IRQHandlerS      0x08012699          Code  Wk  startup_stm32l1xx_md.o [1]
+USB_SIL_Init            0x08010fe5    0x1a  Code  Gb  usb_sil.o [1]
+USB_SIL_Read            0x0801100d    0x2c  Code  Gb  usb_sil.o [1]
+USB_Tx_State            0x20002f7c     0x1  Data  Gb  SDK_EVAL_VC_General.o [1]
+UsageFault_Handler      0x0800ffc5    0x10  Code  Gb  contiki-spirit1-main.o [1]
+UserToPMABufferCopy     0x0800e627    0x40  Code  Gb  usb_mem.o [1]
+User_Standard_Requests  0x200000bc    0x24  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+WWDG_IRQHandler         0x08012649          Code  Wk  startup_stm32l1xx_md.o [1]
+_LitobSmall             0x08008eb5    0xd0  Code  Lc  xprintfsmall.o [3]
+_PrintfSmall            0x08008ae9   0x3cc  Code  Gb  xprintfsmall.o [3]
+_Prout                  0x0801238d    0x16  Code  Gb  xprout.o [3]
+_Rand_idx               0x20000008     0x4  Data  Lc  rand.o [3]
+_Rand_rv                0x2000000c    0x80  Data  Lc  rand.o [3]
+_Randinit               0x20000000     0x1  Data  Gb  rand.o [3]
+_Randseed               0x20000004     0x4  Data  Gb  rand.o [3]
+__aeabi_cdrcmple        0x0800bad1          Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmple         0x0800cabd          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x0800b92d          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x0800b655          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x0800aba9          Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0800abd5          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x0800b56d          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x0800a961          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0800b3c9          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0800b951          Code  Gb  DblSub.o [4]
+__aeabi_errno_addr      0x0800cae1     0x6  Code  Gb  errno.o [3]
+__aeabi_f2d             0x0800a911          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x0800ae5d          Code  Gb  FltToS32.o [4]
+__aeabi_f2uiz           0x0800af65          Code  Gb  FltToU32.o [4]
+__aeabi_fadd            0x0800aee1          Code  Gb  FltAdd.o [4]
+__aeabi_fdiv            0x0800ad61          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x0800a839          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x0800b845          Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x0800b399          Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x0800a805          Code  Gb  I32ToFlt.o [4]
+__aeabi_memcpy          0x080027dd          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x080027fd          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x080027fd          Code  Gb  ABImemcpy.o [5]
+__aeabi_memmove         0x080053bd          Code  Gb  ABImemmove.o [5]
+__aeabi_memmove4        0x080053bd          Code  Gb  ABImemmove.o [5]
+__aeabi_memmove8        0x080053bd          Code  Gb  ABImemmove.o [5]
+__aeabi_memset          0x08005435          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x0800b3ad          Code  Gb  I32ToDbl.o [4]
+__aeabi_ui2f            0x0800a819          Code  Gb  I32ToFlt.o [4]
+__cmain                 0x0801234d          Code  Gb  cmain.o [5]
+__exit                  0x08012379    0x14  Code  Gb  exit.o [6]
+__iar_Errno             0x20002f4c     0x4  Data  Gb  errno.o [3]
+__iar_FDint             0x0800d5ed    0x50  Code  Gb  xfdint.o [4]
+__iar_Memchr            0x08008fdd          Code  Gb  memchr.o [5]
+__iar_Memset            0x08005435          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x0800543d          Code  Gb  ABImemset.o [5]
+__iar_SB                0x080126fc          Data  Gb  bwt_init3c.o [5]
+__iar_Strchr            0x08008f8d          Code  Gb  strchr.o [5]
+__iar_d2uiz             0x0800abe1          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x0800b581          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x08012149    0x2c  Code  Gb  data_init3.o [5]
+__iar_dlib_perthread_access
+                        0x0800736d     0x2  Code  Gb  xtls.o [3]
+__iar_dsub              0x0800b965          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x0800b977          Code  Gb  DblSub.o [4]
+__iar_fadd              0x0800aef1          Code  Gb  FltAdd.o [4]
+__iar_fsub              0x0800b855          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x0800b865          Code  Gb  FltSub.o [4]
+__iar_packbits_init3    0x08011dd9    0xa0  Code  Gb  packbits_init3.o [5]
+__iar_program_start     0x0801256d          Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x0800b3b1          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x0800a81d          Code  Gb  I32ToFlt.o [4]
+__iar_zero_init3        0x08002853    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08012363     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32l1xx_md.o [1]
+__write                 0x080100c3    0x72  Code  Gb  SDK_EVAL_VC_General.o [1]
+_attr_etx_mem           0x20002e00     0xc  Data  Lc  neighbor-info.o [1]
+_attr_timestamp_mem     0x20002c2c    0x30  Data  Lc  neighbor-info.o [1]
+_call_main              0x08012359          Code  Gb  cmain.o [5]
+_exit                   0x0801236d          Code  Gb  cexit.o [5]
+_main                   0x0801235f          Code  Gb  cmain.o [5]
+acceptable_rank         0x080055ad    0x42  Code  Lc  rpl-dag.o [1]
+active                  0x20000304     0x1  Data  Lc  netstack-aes.o [1]
+add_neighbor            0x08006d3d    0x1a  Code  Lc  neighbor-info.o [1]
+add_timer               0x08004f83    0x3c  Code  Lc  etimer.o [1]
+addr                    0x20002d84    0x10  Data  Lc  udp-multicast.o [1]
+addr                    0x20002f1c     0x4  Data  Lc  uip-nd6.o [1]
+addr_context_lookup_by_number
+                        0x08007443    0x40  Code  Lc  sicslowpan.o [1]
+addr_context_lookup_by_prefix
+                        0x080073fb    0x48  Code  Lc  sicslowpan.o [1]
+addr_contexts           0x20002d08    0x14  Data  Lc  sicslowpan.o [1]
+addr_len                0x0800d1b9    0x1c  Code  Lc  frame802154.o [1]
+aes_ccm_decrypt         0x0800f2c7    0xe8  Code  Gb  aes-ccm.o [1]
+aes_ccm_encrypt         0x0800f201    0xc6  Code  Gb  aes-ccm.o [1]
+aes_encr                0x0800e8bf   0x5aa  Code  Lc  aes.o [1]
+aes_encrypt             0x0800ee71    0x1c  Code  Gb  aes.o [1]
+attr_etx                0x200001b8    0x10  Data  Gb  neighbor-info.o [1]
+attr_timestamp          0x200001c8    0x10  Data  Gb  neighbor-info.o [1]
+autostart_processes     0x080125d8     0x8  Data  Gb  udp-multicast.o [1]
+autostart_start         0x08010615    0x20  Code  Gb  autostart.o [1]
+bDeviceState            0x20002e70     0x4  Data  Gb  SDK_EVAL_VC_Pwr.o [1]
+bIntPackSOF             0x20002f7d     0x1  Data  Gb  SDK_EVAL_VC_Istr.o [1]
+best_dag                0x08011901    0x32  Code  Lc  rpl-of-etx.o [1]
+best_parent             0x08011933    0x68  Code  Lc  rpl-of-etx.o [1]
+buf                     0x20002128   0x118  Data  Lc  udp-socket.o [1]
+buflen                  0x20002f5c     0x2  Data  Lc  packetbuf.o [1]
+bufmem                  0x20000264     0xc  Data  Lc  queuebuf.o [1]
+bufmem_memb_count       0x20002e30     0x8  Data  Lc  queuebuf.o [1]
+bufmem_memb_mem         0x20002cac    0x20  Data  Lc  queuebuf.o [1]
+bufptr                  0x20002f5e     0x2  Data  Lc  packetbuf.o [1]
+buframmem               0x2000027c     0xc  Data  Lc  queuebuf.o [1]
+buframmem_memb_count    0x20002e38     0x8  Data  Lc  queuebuf.o [1]
+buframmem_memb_mem      0x20000308   0x690  Data  Lc  queuebuf.o [1]
+c                       0x20002fa3     0x1  Data  Lc  uip6.o [1]
+calculate_path_metric   0x08011869    0x36  Code  Lc  rpl-of-etx.o [1]
+calculate_rank          0x080118a3    0x5e  Code  Lc  rpl-of-etx.o [1]
+call_process            0x080063b9    0x4a  Code  Lc  process.o [1]
+call_route_callback     0x08004b05    0x56  Code  Lc  uip-ds6-route.o [1]
+callback                0x20002ecc     0x4  Data  Lc  sicslowpan.o [1]
+cbcmac_append           0x0800ee9b    0x30  Code  Lc  aes-ccm.o [1]
+cbcmac_calc             0x0800ef23   0x1be  Code  Lc  aes-ccm.o [1]
+cbcmac_clear            0x0800ee8d     0xe  Code  Lc  aes-ccm.o [1]
+cbcmac_xor              0x20002d44    0x10  Data  Lc  aes-ccm.o [1]
+channel_check_interval  0x08010a3d    0x16  Code  Lc  csma.o [1]
+channel_check_interval  0x08010d29     0x4  Code  Lc  nullrdc.o [1]
+check_for_tcp_syn       0x08003189    0x1e  Code  Lc  tcpip.o [1]
+check_prefix            0x0800566f    0x72  Code  Lc  rpl-dag.o [1]
+chksum                  0x080001a1    0x46  Code  Lc  uip6.o [1]
+clock_init              0x08005367    0x22  Code  Gb  clock.o [1]
+clock_seconds           0x08005389     0x6  Code  Gb  clock.o [1]
+clock_time              0x0800538f     0x6  Code  Gb  clock.o [1]
+compress_addr_64        0x08007483    0xbe  Code  Lc  sicslowpan.o [1]
+compress_hdr_hc06       0x0800762d   0x69e  Code  Lc  sicslowpan.o [1]
+compress_hdr_ipv6       0x080081a9    0x44  Code  Lc  sicslowpan.o [1]
+context                 0x20002ed0     0x4  Data  Lc  sicslowpan.o [1]
+copy_packet             0x08010429    0x26  Code  Lc  netstack-aes.o [1]
+create                  0x080112ad   0x12e  Code  Lc  framer-802154.o [1]
+create_llao             0x08003665    0x26  Code  Lc  uip-nd6.o [1]
+csma_driver             0x080122fc    0x1c  Data  Gb  csma.o [1]
+ctimer_init             0x08007087    0x1a  Code  Gb  ctimer.o [1]
+ctimer_list             0x200002d8     0x4  Data  Lc  ctimer.o [1]
+ctimer_list_list        0x20002e8c     0x4  Data  Lc  ctimer.o [1]
+ctimer_process          0x20000198    0x10  Data  Gb  ctimer.o [1]
+ctimer_reset            0x080070f5    0x36  Code  Gb  ctimer.o [1]
+ctimer_set              0x080070a1    0x54  Code  Gb  ctimer.o [1]
+ctimer_stop             0x0800712b    0x28  Code  Gb  ctimer.o [1]
+ctr_mic                 0x0800f17d    0x84  Code  Lc  aes-ccm.o [1]
+ctr_next_ctr_block      0x0800eed1    0x52  Code  Lc  aes-ccm.o [1]
+ctr_payload             0x0800f0e1    0x9c  Code  Lc  aes-ccm.o [1]
+dao_ack_input           0x080049e1    0x2e  Code  Lc  rpl-icmp6.o [1]
+dao_ack_output          0x08004a0f    0x34  Code  Gb  rpl-icmp6.o [1]
+dao_input               0x08004683   0x214  Code  Lc  rpl-icmp6.o [1]
+dao_output              0x08004897   0x14a  Code  Gb  rpl-icmp6.o [1]
+dao_sequence            0x20000305     0x1  Data  Lc  rpl-icmp6.o [1]
+default_instance        0x20002ebc     0x4  Data  Gb  rpl-dag.o [1]
+default_timebase        0x0801073f    0x16  Code  Lc  csma.o [1]
+defaultrouterlist       0x200002f0     0x4  Data  Lc  uip-ds6-route.o [1]
+defaultrouterlist_list  0x20002ef4     0x4  Data  Lc  uip-ds6-route.o [1]
+defaultroutermemb       0x200002ac     0xc  Data  Lc  uip-ds6-route.o [1]
+defaultroutermemb_memb_count
+                        0x20002f6c     0x2  Data  Lc  uip-ds6-route.o [1]
+defaultroutermemb_memb_mem
+                        0x20002bec    0x40  Data  Lc  uip-ds6-route.o [1]
+defrt                   0x20002f18     0x4  Data  Lc  uip-nd6.o [1]
+device_id               0x20002e0c     0xc  Data  Gb  node-id.o [1]
+dio_input               0x080040ad   0x302  Code  Lc  rpl-icmp6.o [1]
+dio_output              0x080043af   0x2d4  Code  Gb  rpl-icmp6.o [1]
+dio_send_ok             0x20002f91     0x1  Data  Lc  rpl-timers.o [1]
+dis_input               0x08004005    0x3e  Code  Lc  rpl-icmp6.o [1]
+dis_output              0x08004043    0x6a  Code  Gb  rpl-icmp6.o [1]
+do_event                0x08006455    0xc0  Code  Lc  process.o [1]
+do_poll                 0x08006425    0x30  Code  Lc  process.o [1]
+energest_flush          0x08006df3     0x2  Code  Gb  energest.o [1]
+energest_init           0x08006df1     0x2  Code  Gb  energest.o [1]
+enqueueRxChars          0x0801026b    0x48  Code  Gb  SDK_EVAL_VC_General.o [1]
+errcode                 0x20002f82     0x1  Data  Lc  contiki-spirit1-main.o [1]
+etimer_expiration_time  0x08005009     0x8  Code  Gb  etimer.o [1]
+etimer_expired          0x08004ff9    0x10  Code  Gb  etimer.o [1]
+etimer_pending          0x08005011    0x12  Code  Gb  etimer.o [1]
+etimer_process          0x200001a8    0x10  Data  Gb  etimer.o [1]
+etimer_request_poll     0x08004f79     0xa  Code  Gb  etimer.o [1]
+etimer_reset            0x08004fd5    0x12  Code  Gb  etimer.o [1]
+etimer_restart          0x08004fe7    0x12  Code  Gb  etimer.o [1]
+etimer_set              0x08004fbf    0x16  Code  Gb  etimer.o [1]
+etimer_stop             0x08005023    0x46  Code  Gb  etimer.o [1]
+eventhandler            0x08003205   0x176  Code  Lc  tcpip.o [1]
+events                  0x20002a18    0x60  Data  Lc  process.o [1]
+exit                    0x08012367     0x4  Code  Gb  exit.o [3]
+exit_process            0x08006321    0x98  Code  Lc  process.o [1]
+expandKey               0x0800e695   0x216  Code  Lc  aes.o [1]
+ext_hdr_options_process
+                        0x080004f7   0x118  Code  Lc  uip6.o [1]
+fevent                  0x20002f8c     0x1  Data  Lc  process.o [1]
+field_len               0x0800d1d5    0x68  Code  Lc  frame802154.o [1]
+find_parent_dag         0x0800591b    0x4e  Code  Lc  rpl-dag.o [1]
+frag_sender             0x20002e48     0x8  Data  Gb  sicslowpan.o [1]
+frame802154_create      0x0800d269   0x12a  Code  Gb  frame802154.o [1]
+frame802154_hdrlen      0x0800d23d    0x2c  Code  Gb  frame802154.o [1]
+frame802154_parse       0x0800d393   0x176  Code  Gb  frame802154.o [1]
+framer_802154           0x080125a0     0x8  Data  Gb  framer-802154.o [1]
+free_first_packet       0x0801077b    0x78  Code  Lc  csma.o [1]
+g_vectcVCPortConfigDescriptor
+                        0x08011f5c    0x44  Data  Gb  SDK_EVAL_VC_Desc.o [1]
+g_vectcVCPortDeviceDescriptor
+                        0x080123cc    0x14  Data  Gb  SDK_EVAL_VC_Desc.o [1]
+g_vectcVCPortStringLangID
+                        0x080125f4     0x4  Data  Gb  SDK_EVAL_VC_Desc.o [1]
+g_vectcVCPortStringProduct
+                        0x08011eec    0x70  Data  Gb  SDK_EVAL_VC_Desc.o [1]
+g_vectcVCPortStringSerial
+                        0x20000100    0x1c  Data  Gb  SDK_EVAL_VC_Desc.o [1]
+g_vectcVCPortStringVendor
+                        0x08012174    0x28  Data  Gb  SDK_EVAL_VC_Desc.o [1]
+g_xStatus               0x20002e7c     0x4  Data  Gb  SPIRIT_Types.o [1]
+galois_mul2             0x0800e8ab    0x14  Code  Lc  aes.o [1]
+get16                   0x08003fe9     0xe  Code  Lc  rpl-icmp6.o [1]
+get32                   0x08003fb5    0x1c  Code  Lc  rpl-icmp6.o [1]
+get_dag                 0x080055ef    0x52  Code  Lc  rpl-dag.o [1]
+get_global_addr         0x08003f49    0x6c  Code  Lc  rpl-icmp6.o [1]
+get_match_length        0x080026e1    0x4a  Code  Gb  uip-ds6.o [1]
+global_repair           0x08005f4f    0x88  Code  Lc  rpl-dag.o [1]
+handle_dao_timer        0x08006799    0x46  Code  Lc  rpl-timers.o [1]
+handle_dio_timer        0x080066c5    0x88  Code  Lc  rpl-timers.o [1]
+handle_periodic_timer   0x08006629    0x3a  Code  Lc  rpl-timers.o [1]
+hc06_ptr                0x20002ed4     0x4  Data  Lc  sicslowpan.o [1]
+hdrptr                  0x20002f89     0x1  Data  Lc  packetbuf.o [1]
+init                    0x08010a53    0x16  Code  Lc  csma.o [1]
+init                    0x08010d2d     0x8  Code  Lc  nullrdc.o [1]
+initialized             0x20002f83     0x1  Data  Lc  ctimer.o [1]
+initialized             0x20002f85     0x1  Data  Lc  framer-802154.o [1]
+input                   0x080085cd   0x2d4  Code  Lc  sicslowpan.o [1]
+input_packet            0x08010a1b     0xa  Code  Lc  csma.o [1]
+instance_table          0x20002460    0xf4  Data  Gb  rpl-dag.o [1]
+interrupt_callback_in_progress
+                        0x20002ee4     0x4  Data  Lc  spirit1.o [1]
+interrupt_callback_wants_poll
+                        0x20002ee8     0x4  Data  Lc  spirit1.o [1]
+invert                  0x20002f87     0x1  Data  Lc  leds.o [1]
+is_broadcast_addr       0x08011289    0x24  Code  Lc  framer-802154.o [1]
+iss                     0x20002f30     0x4  Data  Lc  uip6.o [1]
+just_got_an_ack         0x20002edc     0x4  Data  Lc  spirit1.o [1]
+key                     0x20002d54    0x10  Data  Lc  netstack-aes.o [1]
+key_set                 0x20002f88     0x1  Data  Lc  netstack-aes.o [1]
+last_tx_status          0x20002ec8     0x4  Data  Lc  sicslowpan.o [1]
+lastevent               0x20002f8a     0x1  Data  Lc  process.o [1]
+lastport                0x20002f72     0x2  Data  Lc  uip6.o [1]
+leds                    0x20002f86     0x1  Data  Lc  leds.o [1]
+leds_arch_init          0x0801069d    0x40  Code  Gb  leds-arch.o [1]
+leds_arch_set           0x080106dd    0x30  Code  Gb  leds-arch.o [1]
+leds_init               0x08010347    0x12  Code  Gb  leds.o [1]
+leds_off                0x0801037b    0x20  Code  Gb  leds.o [1]
+leds_on                 0x08010359    0x22  Code  Gb  leds.o [1]
+list_add                0x08006b0d    0x26  Code  Gb  list.o [1]
+list_head               0x08006aeb     0x4  Code  Gb  list.o [1]
+list_init               0x08006ae5     0x6  Code  Gb  list.o [1]
+list_item_next          0x08006ba7     0xc  Code  Gb  list.o [1]
+list_length             0x08006b93    0x14  Code  Gb  list.o [1]
+list_pop                0x08006b49    0x14  Code  Gb  list.o [1]
+list_push               0x08006b33    0x16  Code  Gb  list.o [1]
+list_remove             0x08006b5d    0x36  Code  Gb  list.o [1]
+list_tail               0x08006aef    0x1e  Code  Gb  list.o [1]
+llprefix                0x08008fda     0x2  Data  Gb  sicslowpan.o [1]
+loc_fipaddr             0x20002dc4    0x10  Data  Lc  uip-ds6.o [1]
+locaddr                 0x20002efc     0x4  Data  Lc  uip-ds6.o [1]
+locdefrt                0x20002f0c     0x4  Data  Lc  uip-ds6.o [1]
+locmaddr                0x20002f00     0x4  Data  Lc  uip-ds6.o [1]
+locnbr                  0x20002f08     0x4  Data  Lc  uip-ds6.o [1]
+locprefix               0x20002f04     0x4  Data  Lc  uip-ds6.o [1]
+lollipop_greater_than   0x0800549d    0x3a  Code  Lc  rpl-dag.o [1]
+lroundf                 0x0800aea1    0x40  Code  Gb  lroundf.o [4]
+mac_call_sent_callback  0x08010a89    0x28  Code  Gb  mac.o [1]
+mac_dsn                 0x20002f84     0x1  Data  Lc  framer-802154.o [1]
+mac_dst_pan_id          0x0800549a     0x2  Data  Lc  framer-802154.o [1]
+mac_src_pan_id          0x0800736e     0x2  Data  Lc  framer-802154.o [1]
+main                    0x0800fc9d   0x27c  Code  Gb  contiki-spirit1-main.o [1]
+memb_alloc              0x08006bd3    0x30  Code  Gb  memb.o [1]
+memb_free               0x08006c03    0x3c  Code  Gb  memb.o [1]
+memb_init               0x08006bb3    0x20  Code  Gb  memb.o [1]
+memb_inmemb             0x08006c3f    0x1e  Code  Gb  memb.o [1]
+memchr                  0x08008fdd          Code  Gb  memchr.o [5]
+memcmp                  0x08004aa1          Code  Gb  memcmp.o [5]
+memcpy                  0x080050af    0x16  Code  Gb  xmac.o [1]
+memmove                 0x080027b1    0x16  Code  Gb  uiplib.o [1]
+memset                  0x080027c7    0x16  Code  Gb  websocket.o [1]
+metadata_memb           0x2000024c     0xc  Data  Lc  csma.o [1]
+metadata_memb_memb_count
+                        0x20002e20     0x8  Data  Lc  csma.o [1]
+metadata_memb_memb_mem  0x200029b8    0x60  Data  Lc  csma.o [1]
+multicast_example_process
+                        0x20000208    0x10  Data  Gb  udp-multicast.o [1]
+my_tag                  0x20002f68     0x2  Data  Lc  sicslowpan.o [1]
+nbr                     0x20002f14     0x4  Data  Lc  uip-nd6.o [1]
+nd6_opt_llao            0x20002f10     0x4  Data  Lc  uip-nd6.o [1]
+nd6_opt_offset          0x20002f9e     0x1  Data  Lc  uip-nd6.o [1]
+neighbor_addr_get       0x080071b9    0x3a  Code  Lc  neighbor-attr.o [1]
+neighbor_addr_mem       0x20000258     0xc  Data  Lc  neighbor-attr.o [1]
+neighbor_addr_mem_memb_count
+                        0x20002df4     0xc  Data  Lc  neighbor-attr.o [1]
+neighbor_addr_mem_memb_mem
+                        0x20002554    0xc0  Data  Lc  neighbor-attr.o [1]
+neighbor_addrs          0x200002dc     0x4  Data  Lc  neighbor-attr.o [1]
+neighbor_addrs_list     0x20002e98     0x4  Data  Lc  neighbor-attr.o [1]
+neighbor_attr_add_neighbor
+                        0x0800726b    0x8a  Code  Gb  neighbor-attr.o [1]
+neighbor_attr_get_data  0x080072f5    0x22  Code  Gb  neighbor-attr.o [1]
+neighbor_attr_has_neighbor
+                        0x08007253    0x18  Code  Gb  neighbor-attr.o [1]
+neighbor_attr_register  0x08007227    0x2c  Code  Gb  neighbor-attr.o [1]
+neighbor_attr_set_data  0x08007317    0x4a  Code  Gb  neighbor-attr.o [1]
+neighbor_attrs          0x200002e0     0x4  Data  Lc  neighbor-attr.o [1]
+neighbor_attrs_list     0x20002e9c     0x4  Data  Lc  neighbor-attr.o [1]
+neighbor_info_packet_received
+                        0x08006d9d    0x1e  Code  Gb  neighbor-info.o [1]
+neighbor_info_packet_sent
+                        0x08006d57    0x46  Code  Gb  neighbor-info.o [1]
+neighbor_info_subscribe
+                        0x08006dbb    0x24  Code  Gb  neighbor-info.o [1]
+neighbor_list           0x200002d4     0x4  Data  Lc  csma.o [1]
+neighbor_list_list      0x20002e88     0x4  Data  Lc  csma.o [1]
+neighbor_memb           0x20000234     0xc  Data  Lc  csma.o [1]
+neighbor_memb_memb_count
+                        0x20002f56     0x2  Data  Lc  csma.o [1]
+neighbor_memb_memb_mem  0x20002884    0x70  Data  Lc  csma.o [1]
+neighbor_queue_from_addr
+                        0x0801070d    0x32  Code  Lc  csma.o [1]
+netstack_aes_decrypt    0x080104fd    0xc2  Code  Gb  netstack-aes.o [1]
+netstack_aes_encrypt    0x0801044f    0xae  Code  Gb  netstack-aes.o [1]
+netstack_aes_init       0x080105bf    0x16  Code  Gb  netstack-aes.o [1]
+netstack_aes_set_key    0x080105d5    0x16  Code  Gb  netstack-aes.o [1]
+netstack_init           0x080103f9    0x30  Code  Gb  netstack.o [1]
+nevents                 0x20002f8b     0x1  Data  Lc  process.o [1]
+new_dio_interval        0x08006663    0x62  Code  Lc  rpl-timers.o [1]
+next_dis                0x20002f62     0x2  Data  Lc  rpl-timers.o [1]
+next_expiration         0x20002e94     0x4  Data  Lc  etimer.o [1]
+node_id                 0x20002f5a     0x2  Data  Gb  node-id.o [1]
+node_id_restore         0x080103a5    0x3c  Code  Gb  node-id.o [1]
+node_mac                0x20002e28     0x8  Data  Gb  node-id.o [1]
+notificationlist        0x200002f4     0x4  Data  Lc  uip-ds6-route.o [1]
+notificationlist_list   0x20002ef8     0x4  Data  Lc  uip-ds6-route.o [1]
+nullify_parents         0x08005503    0x2c  Code  Lc  rpl-dag.o [1]
+nullrdc_driver          0x080122a0    0x20  Data  Gb  nullrdc.o [1]
+objective_functions     0x08012608     0x4  Data  Lc  rpl-dag.o [1]
+off                     0x08010a2f     0xe  Code  Lc  csma.o [1]
+off                     0x08010cf5    0x18  Code  Lc  nullrdc.o [1]
+on                      0x08010a25     0xa  Code  Lc  csma.o [1]
+on                      0x08010ceb     0xa  Code  Lc  nullrdc.o [1]
+opt                     0x20002fa4     0x1  Data  Lc  uip6.o [1]
+output                  0x0800825d   0x358  Code  Lc  sicslowpan.o [1]
+outputfunc              0x20002eec     0x4  Data  Lc  tcpip.o [1]
+pEpInt_IN               0x2000011c    0x1c  Data  Gb  SDK_EVAL_VC_Istr.o [1]
+pEpInt_OUT              0x20000138    0x1c  Data  Gb  SDK_EVAL_VC_Istr.o [1]
+pInformation            0x20002f40     0x4  Data  Gb  usb_init.o [1]
+pProperty               0x20002f44     0x4  Data  Gb  usb_init.o [1]
+pUser_Standard_Requests
+                        0x20002f48     0x4  Data  Gb  usb_init.o [1]
+packet_input            0x08010c27    0xc4  Code  Lc  nullrdc.o [1]
+packet_input            0x080031a7    0x26  Code  Lc  tcpip.o [1]
+packet_is_prepared      0x20002ee0     0x4  Data  Lc  spirit1.o [1]
+packet_memb             0x20000240     0xc  Data  Lc  csma.o [1]
+packet_memb_memb_count  0x20002e18     0x8  Data  Lc  csma.o [1]
+packet_memb_memb_mem    0x20002958    0x60  Data  Lc  csma.o [1]
+packet_sent             0x080107f5    0xf4  Code  Lc  csma.o [1]
+packet_sent             0x080081ed    0x2e  Code  Lc  sicslowpan.o [1]
+packetbuf               0x200002e4     0x4  Data  Lc  packetbuf.o [1]
+packetbuf_addr          0x08006ab7     0xc  Code  Gb  packetbuf.o [1]
+packetbuf_addrs         0x20002c8c    0x20  Data  Gb  packetbuf.o [1]
+packetbuf_aligned       0x200026d4    0xb4  Data  Lc  packetbuf.o [1]
+packetbuf_attr          0x08006a93     0xa  Code  Gb  packetbuf.o [1]
+packetbuf_attr_clear    0x08006a1d    0x30  Code  Gb  packetbuf.o [1]
+packetbuf_attr_copyfrom
+                        0x08006a69    0x1c  Code  Gb  packetbuf.o [1]
+packetbuf_attr_copyto   0x08006a4d    0x1c  Code  Gb  packetbuf.o [1]
+packetbuf_attrs         0x20002c5c    0x30  Data  Gb  packetbuf.o [1]
+packetbuf_clear         0x08006839    0x24  Code  Gb  packetbuf.o [1]
+packetbuf_compact       0x0800688b    0x5c  Code  Gb  packetbuf.o [1]
+packetbuf_copyfrom      0x0800685d    0x2e  Code  Gb  packetbuf.o [1]
+packetbuf_copyto        0x0800690d    0x5e  Code  Gb  packetbuf.o [1]
+packetbuf_copyto_hdr    0x080068e7    0x26  Code  Gb  packetbuf.o [1]
+packetbuf_datalen       0x080069f7     0x6  Code  Gb  packetbuf.o [1]
+packetbuf_dataptr       0x080069bf     0xe  Code  Gb  packetbuf.o [1]
+packetbuf_hdralloc      0x0800696b    0x28  Code  Gb  packetbuf.o [1]
+packetbuf_hdrlen        0x080069fd     0xc  Code  Gb  packetbuf.o [1]
+packetbuf_hdrptr        0x080069cd     0xc  Code  Gb  packetbuf.o [1]
+packetbuf_hdrreduce     0x08006993    0x26  Code  Gb  packetbuf.o [1]
+packetbuf_is_reference  0x080069d9    0x18  Code  Gb  packetbuf.o [1]
+packetbuf_reference_ptr
+                        0x080069f1     0x6  Code  Gb  packetbuf.o [1]
+packetbuf_set_addr      0x08006a9d    0x1a  Code  Gb  packetbuf.o [1]
+packetbuf_set_attr      0x08006a85     0xe  Code  Gb  packetbuf.o [1]
+packetbuf_set_datalen   0x080069b9     0x6  Code  Gb  packetbuf.o [1]
+packetbuf_totlen        0x08006a09    0x14  Code  Gb  packetbuf.o [1]
+packetbufptr            0x20002ea4     0x4  Data  Lc  packetbuf.o [1]
+panic_ra                0x0800c0e1    0x78  Code  Lc  spirit1.o [1]
+parent_memb             0x20000288     0xc  Data  Lc  rpl-dag.o [1]
+parent_memb_memb_count  0x20002d64    0x10  Data  Lc  rpl-dag.o [1]
+parent_memb_memb_mem    0x20001c10   0x280  Data  Lc  rpl-dag.o [1]
+parent_state_callback   0x080118a1     0x2  Code  Lc  rpl-of-etx.o [1]
+parse                   0x080113db    0x96  Code  Lc  framer-802154.o [1]
+payload_tmp             0x20002788    0x84  Data  Lc  netstack-aes.o [1]
+periodic                0x20002d74    0x10  Data  Lc  tcpip.o [1]
+periodic_timer          0x20002ccc    0x20  Data  Lc  rpl-timers.o [1]
+periodic_timer          0x20002d94    0x10  Data  Lc  udp-multicast.o [1]
+poll_requested          0x20002f8e     0x1  Data  Lc  process.o [1]
+print_processes         0x0800ff5d    0x28  Code  Lc  contiki-spirit1-main.o [1]
+printf                  0x08008ac5    0x24  Code  Gb  printf.o [3]
+process_alloc_event     0x080062d1    0x12  Code  Gb  process.o [1]
+process_current         0x20002eac     0x4  Data  Gb  process.o [1]
+process_init            0x08006403    0x22  Code  Gb  process.o [1]
+process_is_running      0x08006619    0x10  Code  Gb  process.o [1]
+process_list            0x20002ea8     0x4  Data  Gb  process.o [1]
+process_maxevents       0x20002f8d     0x1  Data  Gb  process.o [1]
+process_poll            0x080065c9    0x1c  Code  Gb  process.o [1]
+process_post            0x08006533    0x78  Code  Gb  process.o [1]
+process_post_synch      0x080065ab    0x1e  Code  Gb  process.o [1]
+process_run             0x08006515    0x1e  Code  Gb  process.o [1]
+process_start           0x080062e3    0x3e  Code  Gb  process.o [1]
+process_thread_ctimer_process
+                        0x08006fe9    0x9e  Code  Lc  ctimer.o [1]
+process_thread_etimer_process
+                        0x08004e95    0xe4  Code  Lc  etimer.o [1]
+process_thread_multicast_example_process
+                        0x08011a29    0xec  Code  Lc  udp-multicast.o [1]
+process_thread_spirit_radio_process
+                        0x0800c787   0x162  Code  Lc  spirit1.o [1]
+process_thread_tcpip_process
+                        0x0800357f    0x8a  Code  Lc  tcpip.o [1]
+process_thread_udp_socket_process
+                        0x0801157b    0xb8  Code  Lc  udp-socket.o [1]
+processed_ip_in_len     0x20002f66     0x2  Data  Lc  sicslowpan.o [1]
+putchar                 0x08010635    0x28  Code  Gb  putchar.o [3]
+queuebuf_free           0x08008a1d    0x38  Code  Gb  queuebuf.o [1]
+queuebuf_init           0x08008981    0x16  Code  Gb  queuebuf.o [1]
+queuebuf_load_to_ram    0x0800897d     0x4  Code  Lc  queuebuf.o [1]
+queuebuf_new_from_packetbuf
+                        0x08008997    0x6c  Code  Gb  queuebuf.o [1]
+queuebuf_to_packetbuf   0x08008a55    0x62  Code  Gb  queuebuf.o [1]
+queuebuf_update_attr_from_packetbuf
+                        0x08008a03    0x1a  Code  Gb  queuebuf.o [1]
+rand                    0x08006f25    0xc4  Code  Gb  rand.o [3]
+random_init             0x080053a5     0xe  Code  Gb  random.o [1]
+random_rand             0x080053b3     0xa  Code  Gb  random.o [1]
+reass_tag               0x20002f6a     0x2  Data  Lc  sicslowpan.o [1]
+reass_timer             0x20002e50     0x8  Data  Lc  sicslowpan.o [1]
+received_seqnos         0x20002ad8    0x48  Data  Lc  nullrdc.o [1]
+receiver                0x080119d9    0x50  Code  Lc  udp-multicast.o [1]
+receiving_packet        0x20002f95     0x1  Data  Lc  spirit1.o [1]
+refbufmem               0x20000270     0xc  Data  Lc  queuebuf.o [1]
+refbufmem_memb_count    0x20002f60     0x2  Data  Lc  queuebuf.o [1]
+refbufmem_memb_mem      0x2000280c    0x78  Data  Lc  queuebuf.o [1]
+remove_ext_hdr          0x08000325    0x82  Code  Gb  uip6.o [1]
+remove_parents          0x080054d7    0x2c  Code  Lc  rpl-dag.o [1]
+remove_worst_parent     0x0800552f    0x4a  Code  Lc  rpl-dag.o [1]
+reset                   0x0801189f     0x2  Code  Lc  rpl-of-etx.o [1]
+rime_hdr_len            0x20002f92     0x1  Data  Lc  sicslowpan.o [1]
+rime_payload_len        0x20002f93     0x1  Data  Lc  sicslowpan.o [1]
+rime_ptr                0x20002ec4     0x4  Data  Lc  sicslowpan.o [1]
+rimeaddr_cmp            0x0800717d    0x28  Code  Gb  rimeaddr.o [1]
+rimeaddr_copy           0x08007165    0x18  Code  Gb  rimeaddr.o [1]
+rimeaddr_node_addr      0x20002e40     0x8  Data  Gb  rimeaddr.o [1]
+rimeaddr_null           0x080125b0     0x8  Data  Gb  rimeaddr.o [1]
+rimeaddr_set_node_addr  0x080071a5     0xe  Code  Gb  rimeaddr.o [1]
+rimestats               0x20002b20    0x48  Data  Gb  rimestats.o [1]
+roundf                  0x0800ca85    0x38  Code  Gb  roundf.o [4]
+routelist               0x200002ec     0x4  Data  Lc  uip-ds6-route.o [1]
+routelist_list          0x20002ef0     0x4  Data  Lc  uip-ds6-route.o [1]
+routememb               0x200002a0     0xc  Data  Lc  uip-ds6-route.o [1]
+routememb_memb_count    0x20002d30    0x14  Data  Lc  uip-ds6-route.o [1]
+routememb_memb_mem      0x20000fb0   0x460  Data  Lc  uip-ds6-route.o [1]
+rpl_add_dag             0x08005e39   0x116  Code  Gb  rpl-dag.o [1]
+rpl_add_parent          0x0800588d    0x60  Code  Gb  rpl-dag.o [1]
+rpl_add_route           0x0800517f    0x60  Code  Gb  rpl.o [1]
+rpl_alloc_dag           0x0800577b    0x86  Code  Gb  rpl-dag.o [1]
+rpl_alloc_instance      0x08005737    0x44  Code  Gb  rpl-dag.o [1]
+rpl_find_of             0x08005ce7    0x2c  Code  Gb  rpl-dag.o [1]
+rpl_find_parent         0x080058ed    0x2e  Code  Gb  rpl-dag.o [1]
+rpl_find_parent_any_dag
+                        0x08005969    0x4e  Code  Gb  rpl-dag.o [1]
+rpl_free_dag            0x08005859    0x34  Code  Gb  rpl-dag.o [1]
+rpl_free_instance       0x08005801    0x58  Code  Gb  rpl-dag.o [1]
+rpl_get_any_dag         0x08005c61    0x42  Code  Gb  rpl-dag.o [1]
+rpl_get_instance        0x08005ca3    0x44  Code  Gb  rpl-dag.o [1]
+rpl_init                0x080052cd    0x52  Code  Gb  rpl.o [1]
+rpl_invert_header       0x08002c75    0xb6  Code  Gb  rpl-ext-header.o [1]
+rpl_ipv6_neighbor_callback
+                        0x0800528b    0x42  Code  Gb  rpl.o [1]
+rpl_join_instance       0x08005d13   0x126  Code  Gb  rpl-dag.o [1]
+rpl_link_neighbor_callback
+                        0x080051df    0xac  Code  Lc  rpl.o [1]
+rpl_local_repair        0x08005fd7    0x40  Code  Gb  rpl-dag.o [1]
+rpl_move_parent         0x08005c01    0x60  Code  Gb  rpl-dag.o [1]
+rpl_nullify_parent      0x08005bbf    0x42  Code  Gb  rpl-dag.o [1]
+rpl_of_etx              0x20000154    0x1c  Data  Gb  rpl-of-etx.o [1]
+rpl_process_dio         0x080060eb   0x1e6  Code  Gb  rpl-dag.o [1]
+rpl_process_parent_event
+                        0x08006095    0x56  Code  Gb  rpl-dag.o [1]
+rpl_purge_routes        0x080050c5    0x4c  Code  Gb  rpl.o [1]
+rpl_recalculate_ranks   0x08006017    0x68  Code  Gb  rpl-dag.o [1]
+rpl_remove_parent       0x08005b9d    0x22  Code  Gb  rpl-dag.o [1]
+rpl_remove_routes       0x08005111    0x2e  Code  Gb  rpl.o [1]
+rpl_remove_routes_by_nexthop
+                        0x0800513f    0x40  Code  Gb  rpl.o [1]
+rpl_reset_dio_timer     0x08006773    0x26  Code  Gb  rpl-timers.o [1]
+rpl_reset_periodic_timer
+                        0x0800674d    0x26  Code  Gb  rpl-timers.o [1]
+rpl_schedule_dao        0x080067df    0x40  Code  Gb  rpl-timers.o [1]
+rpl_select_dag          0x080059b7   0x1a4  Code  Gb  rpl-dag.o [1]
+rpl_select_parent       0x08005b5b    0x42  Code  Gb  rpl-dag.o [1]
+rpl_set_default_route   0x080056e1    0x56  Code  Gb  rpl-dag.o [1]
+rpl_update_header_empty
+                        0x08002a9d   0x102  Code  Gb  rpl-ext-header.o [1]
+rpl_update_header_final
+                        0x08002b9f    0xd6  Code  Gb  rpl-ext-header.o [1]
+rpl_verify_header       0x08002875    0xfe  Code  Gb  rpl-ext-header.o [1]
+rtimer_arch_init        0x0800ac19    0x8e  Code  Gb  rtimer-arch.o [1]
+rtimer_arch_now         0x0800aca7     0x8  Code  Gb  rtimer-arch.o [1]
+rtimer_clock            0x20002ec0     0x4  Data  Gb  rtimer-arch.o [1]
+rtimer_init             0x080102e9     0x8  Code  Gb  rtimer.o [1]
+rxHead                  0x20002f50     0x2  Data  Gb  SDK_EVAL_VC_General.o [1]
+rxQ                     0x20001810   0x400  Data  Gb  SDK_EVAL_VC_General.o [1]
+rxUsed                  0x20002f52     0x2  Data  Gb  SDK_EVAL_VC_General.o [1]
+s                       0x20002b68    0x44  Data  Lc  tcpip.o [1]
+s                       0x20002d1c    0x14  Data  Lc  udp-multicast.o [1]
+s_cCommunicationState   0x20002f81     0x1  Data  Lc  SPIRIT_Management.o [1]
+s_lVCTxBufferInIndex    0x20002e64     0x4  Data  Gb  SDK_EVAL_VC_General.o [1]
+s_lVCTxBufferOutIndex   0x20002e68     0x4  Data  Gb  SDK_EVAL_VC_General.o [1]
+s_lVCTxDataLength       0x20002e6c     0x4  Data  Gb  SDK_EVAL_VC_General.o [1]
+s_lXtalFrequency        0x20002e78     0x4  Data  Lc  SPIRIT_Radio.o [1]
+s_nDesiredFrequency     0x20002e74     0x4  Data  Lc  SPIRIT_Management.o [1]
+s_vectcBHalfFactor      0x080125f8     0x4  Data  Lc  SPIRIT_Management.o [1]
+s_vectcBHalfFactor      0x08012600     0x4  Data  Lc  SPIRIT_Radio.o [1]
+s_vectcBandRegValue     0x080125fc     0x4  Data  Lc  SPIRIT_Management.o [1]
+s_vectcBandRegValue     0x08012604     0x4  Data  Lc  SPIRIT_Radio.o [1]
+s_vectcM2SGpioExtiIrqn  0x080125f0     0x4  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectcM2SGpioExtiPinSource
+                        0x080125e4     0x4  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectcM2SGpioExtiPortSource
+                        0x080125e0     0x4  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectcVCTxBuffer       0x20001410   0x400  Data  Gb  SDK_EVAL_VC_General.o [1]
+s_vectlGpioClk          0x080123a4    0x14  Data  Lc  SDK_EVAL_Led.o [1]
+s_vectlM2SExtiLine      0x08012458    0x10  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectlM2SGpioClk       0x080123b8    0x14  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectnBandwidth26M     0x08011d24    0xb4  Data  Lc  SPIRIT_Radio.o [1]
+s_vectnGpioPin          0x080124b8     0xc  Data  Lc  SDK_EVAL_Led.o [1]
+s_vectnM2SGpioPin       0x080124c4     0xc  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectnVCOFreq          0x08012240    0x20  Data  Lc  SPIRIT_Radio.o [1]
+s_vectxDigipotAddress   0x08004b02     0x2  Data  Lc  SDK_EVAL_PM.o [1]
+s_vectxM2SGpioExtiTrigger
+                        0x080125ec     0x4  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectxM2SGpioOType     0x08012588     0x8  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectxM2SGpioPuPd      0x08012580     0x8  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectxM2SGpioSpeed     0x08012578     0x8  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_vectxM2sGpioExtiMode  0x080125e8     0x4  Data  Lc  SDK_EVAL_Spirit_Gpio.o [1]
+s_xRfBoardIdentification
+                        0x20000228     0xc  Data  Lc  SPIRIT_Management.o [1]
+s_xSpiritVersion        0x20002f7f     0x1  Data  Lc  SPIRIT_General.o [1]
+s_xTIM3Ch4CompareModeRaised
+                        0x20002f80     0x1  Data  Lc  SPIRIT_Management.o [1]
+sbox                    0x08011b3c   0x100  Data  Lc  aes.o [1]
+seconds                 0x20002e80     0x4  Data  Lc  clock.o [1]
+send_list               0x08010c07    0x20  Code  Lc  nullrdc.o [1]
+send_packet             0x080108e9   0x132  Code  Lc  csma.o [1]
+send_packet             0x08010ab1   0x156  Code  Lc  nullrdc.o [1]
+send_packet             0x0800821b    0x20  Code  Lc  sicslowpan.o [1]
+send_timer              0x20002da4    0x10  Data  Lc  udp-multicast.o [1]
+set16                   0x08003ff7     0xe  Code  Lc  rpl-icmp6.o [1]
+set32                   0x08003fd1    0x18  Code  Lc  rpl-icmp6.o [1]
+set_attr                0x080071f3    0x34  Code  Lc  neighbor-attr.o [1]
+set_ip_from_prefix      0x08005641    0x2e  Code  Lc  rpl-dag.o [1]
+set_packet_attrs        0x08007371    0x8a  Code  Lc  sicslowpan.o [1]
+set_rime_addr           0x0800ff19    0x44  Code  Lc  contiki-spirit1-main.o [1]
+set_rpl_opt             0x08002973   0x12a  Code  Lc  rpl-ext-header.o [1]
+should_send_dao         0x08005579    0x34  Code  Lc  rpl-dag.o [1]
+show_leds               0x080102f1    0x56  Code  Lc  leds.o [1]
+sicslowpan_aligned_buf  0x20002010   0x118  Data  Lc  sicslowpan.o [1]
+sicslowpan_driver       0x08012554     0xc  Data  Gb  sicslowpan.o [1]
+sicslowpan_init         0x080088a1    0x3a  Code  Gb  sicslowpan.o [1]
+sicslowpan_len          0x20002f64     0x2  Data  Lc  sicslowpan.o [1]
+spirit1_arch_refresh_status
+                        0x0800acd1    0x82  Code  Gb  spirit1-arch.o [1]
+spirit1_interrupt_callback
+                        0x0800c8e9   0x11a  Code  Gb  spirit1.o [1]
+spirit1_strobe          0x0800c089     0xe  Code  Lc  spirit1.o [1]
+spirit_on               0x200002e8     0x4  Data  Lc  spirit1.o [1]
+spirit_radio_channel_clear
+                        0x0800c535    0xe4  Code  Lc  spirit1.o [1]
+spirit_radio_driver     0x0801211c    0x2c  Data  Gb  spirit1.o [1]
+spirit_radio_init       0x0800c159   0x156  Code  Lc  spirit1.o [1]
+spirit_radio_off        0x0800c635    0xa8  Code  Lc  spirit1.o [1]
+spirit_radio_on         0x0800c6dd    0xaa  Code  Lc  spirit1.o [1]
+spirit_radio_pending_packet
+                        0x0800c621    0x14  Code  Lc  spirit1.o [1]
+spirit_radio_prepare    0x0800c2af    0xa6  Code  Lc  spirit1.o [1]
+spirit_radio_process    0x200001d8    0x10  Data  Gb  spirit1.o [1]
+spirit_radio_read       0x0800c4e9    0x4c  Code  Lc  spirit1.o [1]
+spirit_radio_receiving_packet
+                        0x0800c619     0x8  Code  Lc  spirit1.o [1]
+spirit_radio_send       0x0800c4c7    0x22  Code  Lc  spirit1.o [1]
+spirit_radio_transmit   0x0800c355   0x172  Code  Lc  spirit1.o [1]
+spirit_rxbuf            0x200028f4    0x64  Data  Lc  spirit1.o [1]
+spirit_txbuf            0x20002f96     0x1  Data  Lc  spirit1.o [1]
+srand                   0x08006f05    0x20  Code  Gb  srand.o [3]
+start_periodic_tcp_timer
+                        0x08003171    0x18  Code  Lc  tcpip.o [1]
+stimer_expired          0x0800508d    0x22  Code  Gb  stimer.o [1]
+stimer_set              0x0800507d    0x10  Code  Gb  stimer.o [1]
+strchr                  0x08008f8d          Code  Gb  strchr.o [5]
+strlen                  0x08008fa5          Code  Gb  strlen.o [5]
+subscriber_callback     0x20002ea0     0x4  Data  Lc  neighbor-info.o [1]
+tcpip_event             0x20002f97     0x1  Data  Gb  tcpip.o [1]
+tcpip_input             0x0800337b    0x1a  Code  Gb  tcpip.o [1]
+tcpip_ipv6_output       0x08003395   0x170  Code  Gb  tcpip.o [1]
+tcpip_output            0x08003145    0x24  Code  Gb  tcpip.o [1]
+tcpip_process           0x200001f8    0x10  Data  Gb  tcpip.o [1]
+tcpip_set_outputfunc    0x08003169     0x8  Code  Gb  tcpip.o [1]
+tcpip_uipcall           0x08003505    0x7a  Code  Gb  tcpip.o [1]
+ticks                   0x20002e84     0x4  Data  Lc  clock.o [1]
+timer_expired           0x08006c83    0x1e  Code  Gb  timer.o [1]
+timer_reset             0x08006c6d     0xa  Code  Gb  timer.o [1]
+timer_restart           0x08006c77     0xc  Code  Gb  timer.o [1]
+timer_set               0x08006c5d    0x10  Code  Gb  timer.o [1]
+timerlist               0x20002e90     0x4  Data  Lc  etimer.o [1]
+tmp16                   0x20002f74     0x2  Data  Lc  uip6.o [1]
+tmp_ipaddr              0x20002dd4    0x10  Data  Lc  uip-icmp6.o [1]
+transmit_packet_list    0x08010755    0x26  Code  Lc  csma.o [1]
+ttl_values              0x08012618     0x4  Data  Lc  sicslowpan.o [1]
+udp_new                 0x080031cd    0x38  Code  Gb  tcpip.o [1]
+udp_socket_bind         0x080114e3    0x20  Code  Gb  udp-socket.o [1]
+udp_socket_connect      0x08011503    0x34  Code  Gb  udp-socket.o [1]
+udp_socket_init         0x08011489    0x14  Code  Gb  udp-socket.o [1]
+udp_socket_process      0x20000218    0x10  Data  Gb  udp-socket.o [1]
+udp_socket_register     0x0801149d    0x46  Code  Gb  udp-socket.o [1]
+udp_socket_sendto       0x08011537    0x44  Code  Gb  udp-socket.o [1]
+uip_acc32               0x20002f34     0x4  Data  Gb  uip6.o [1]
+uip_add32               0x080000f5    0xac  Code  Gb  uip6.o [1]
+uip_add_rcv_nxt         0x080004b1    0x46  Code  Lc  uip6.o [1]
+uip_aligned_buf         0x20002240   0x118  Data  Gb  uip6.o [1]
+uip_appdata             0x20002f24     0x4  Data  Gb  uip6.o [1]
+uip_conn                0x20002f2c     0x4  Data  Gb  uip6.o [1]
+uip_conns               0x20002614    0xc0  Data  Gb  uip6.o [1]
+uip_ds6_addr_add        0x080023a1    0xe4  Code  Gb  uip-ds6.o [1]
+uip_ds6_addr_lookup     0x08002507    0x2c  Code  Gb  uip-ds6.o [1]
+uip_ds6_addr_rm         0x08002485    0x82  Code  Gb  uip-ds6.o [1]
+uip_ds6_addr_size       0x20002f9c     0x1  Data  Gb  uip-ds6.o [1]
+uip_ds6_compute_reachable_time
+                        0x0800272b    0x36  Code  Gb  uip-ds6.o [1]
+uip_ds6_defrt_add       0x08004ce3    0x5c  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_defrt_choose    0x08004db1    0x3e  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_defrt_lookup    0x08004d7f    0x32  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_defrt_periodic  0x08004def    0x40  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_defrt_rm        0x08004d3f    0x40  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_get_link_local  0x08002533    0x62  Code  Gb  uip-ds6.o [1]
+uip_ds6_if              0x20002358   0x108  Data  Gb  uip-ds6.o [1]
+uip_ds6_init            0x08001d31   0x16c  Code  Gb  uip-ds6.o [1]
+uip_ds6_is_addr_onlink  0x08002341    0x60  Code  Gb  uip-ds6.o [1]
+uip_ds6_list_loop       0x080020d1    0x6a  Code  Gb  uip-ds6.o [1]
+uip_ds6_maddr_add       0x08002595    0x3c  Code  Gb  uip-ds6.o [1]
+uip_ds6_maddr_lookup    0x080025db    0x26  Code  Gb  uip-ds6.o [1]
+uip_ds6_maddr_rm        0x080025d1     0xa  Code  Gb  uip-ds6.o [1]
+uip_ds6_nbr_add         0x0800213b   0x134  Code  Gb  uip-ds6.o [1]
+uip_ds6_nbr_cache       0x20000998   0x618  Data  Gb  uip-ds6.o [1]
+uip_ds6_nbr_lookup      0x08002283    0x38  Code  Gb  uip-ds6.o [1]
+uip_ds6_nbr_rm          0x0800226f    0x14  Code  Gb  uip-ds6.o [1]
+uip_ds6_netif_addr_list_offset
+                        0x20002f9d     0x1  Data  Gb  uip-ds6.o [1]
+uip_ds6_periodic        0x08001e9d   0x234  Code  Gb  uip-ds6.o [1]
+uip_ds6_prefix_add      0x080022bb    0x86  Code  Gb  uip-ds6.o [1]
+uip_ds6_prefix_list     0x20002a78    0x60  Data  Gb  uip-ds6.o [1]
+uip_ds6_route_add       0x08004bdf    0x72  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_init      0x08004b5b    0x28  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_list_head
+                        0x08004b83     0xc  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_lookup    0x08004b8f    0x50  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_rm        0x08004c51    0x42  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_rm_by_nexthop
+                        0x08004c93    0x50  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_select_src      0x08002601    0xc4  Code  Gb  uip-ds6.o [1]
+uip_ds6_set_addr_iid    0x080026c5    0x1c  Code  Gb  uip-ds6.o [1]
+uip_ds6_timer_periodic  0x20002db4    0x10  Data  Gb  uip-ds6.o [1]
+uip_ext_bitmap          0x20002f9f     0x1  Data  Gb  uip6.o [1]
+uip_ext_len             0x20002fa0     0x1  Data  Gb  uip6.o [1]
+uip_ext_opt_offset      0x20002fa1     0x1  Data  Gb  uip6.o [1]
+uip_flags               0x20002fa2     0x1  Data  Gb  uip6.o [1]
+uip_htonl               0x08001cd1    0x20  Code  Gb  uip6.o [1]
+uip_htons               0x08001cc5     0xc  Code  Gb  uip6.o [1]
+uip_icmp6_echo_request_input
+                        0x08002d41   0x19c  Code  Gb  uip-icmp6.o [1]
+uip_icmp6_error_output  0x08002edd   0x1bc  Code  Gb  uip-icmp6.o [1]
+uip_icmp6_send          0x08003099    0x8e  Code  Gb  uip-icmp6.o [1]
+uip_icmp6chksum         0x08000257     0xa  Code  Gb  uip6.o [1]
+uip_init                0x08000275    0xb0  Code  Gb  uip6.o [1]
+uip_len                 0x20002f6e     0x2  Data  Gb  uip6.o [1]
+uip_listenports         0x20002de4    0x10  Data  Gb  uip6.o [1]
+uip_lladdr              0x20002e58     0x8  Data  Gb  uip6.o [1]
+uip_nd6_na_input        0x08003c7f   0x29a  Code  Gb  uip-nd6.o [1]
+uip_nd6_ns_input        0x0800368b   0x3f4  Code  Gb  uip-nd6.o [1]
+uip_nd6_ns_output       0x08003a7f   0x200  Code  Gb  uip-nd6.o [1]
+uip_next_hdr            0x20002f20     0x4  Data  Gb  uip6.o [1]
+uip_process             0x08000645  0x1678  Code  Gb  uip6.o [1]
+uip_rpl_input           0x08004a43    0x3e  Code  Gb  rpl-icmp6.o [1]
+uip_sappdata            0x20002f28     0x4  Data  Gb  uip6.o [1]
+uip_slen                0x20002f70     0x2  Data  Gb  uip6.o [1]
+uip_tcpchksum           0x08000261     0xa  Code  Gb  uip6.o [1]
+uip_udp_conn            0x20002f38     0x4  Data  Gb  uip6.o [1]
+uip_udp_conns           0x20001e90   0x180  Data  Gb  uip6.o [1]
+uip_udp_new             0x080003a7    0xd0  Code  Gb  uip6.o [1]
+uip_udp_packet_send     0x08011661    0x38  Code  Gb  uip-udp-packet.o [1]
+uip_udp_packet_sendto   0x080116a5    0x4e  Code  Gb  uip-udp-packet.o [1]
+uip_udpchksum           0x0800026b     0xa  Code  Gb  uip6.o [1]
+uip_unlisten            0x08000477    0x3a  Code  Gb  uip6.o [1]
+unc_ctxconf             0x08012610     0x4  Data  Gb  sicslowpan.o [1]
+unc_llconf              0x0801260c     0x4  Data  Gb  sicslowpan.o [1]
+unc_mxconf              0x08012614     0x4  Data  Gb  sicslowpan.o [1]
+uncomp_hdr_len          0x20002f94     0x1  Data  Lc  sicslowpan.o [1]
+uncompress_addr         0x08007541    0xec  Code  Lc  sicslowpan.o [1]
+uncompress_hdr_hc06     0x08007cd1   0x4d2  Code  Lc  sicslowpan.o [1]
+update_metric           0x08006ca1    0x9c  Code  Lc  neighbor-info.o [1]
+update_metric_container
+                        0x0801199b    0x3e  Code  Lc  rpl-of-etx.o [1]
+update_time             0x08004e45    0x50  Code  Lc  etimer.o [1]
+upper_layer_chksum      0x080001e7    0x70  Code  Lc  uip6.o [1]
+vectpxGpioPort          0x20000170    0x14  Data  Gb  SDK_EVAL_Led.o [1]
+vectpxM2SGpioPort       0x20000184    0x14  Data  Gb  SDK_EVAL_Spirit_Gpio.o [1]
+wInterrupt_Mask         0x20002f76     0x2  Data  Gb  usb_init.o [1]
+wIstr                   0x20002f54     0x2  Data  Gb  SDK_EVAL_VC_Istr.o [1]
+wants_an_ack            0x20002ed8     0x4  Data  Lc  spirit1.o [1]
+watchdog_init           0x08008975     0x2  Code  Gb  watchdog.o [1]
+watchdog_periodic       0x08008979     0x2  Code  Gb  watchdog.o [1]
+watchdog_start          0x08008977     0x2  Code  Gb  watchdog.o [1]
+watchdog_stop           0x0800897b     0x2  Code  Gb  watchdog.o [1]
+xLinecoding             0x200002b8     0x8  Data  Gb  SDK_EVAL_VC_Prop.o [1]
+
+
+[1] = C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\build\iar-l1\stm32l1xx-mesh-node\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  73 426 bytes of readonly  code memory
+   2 666 bytes of readonly  data memory
+  14 245 bytes of readwrite data memory
+
+Errors: none
+Warnings: 2

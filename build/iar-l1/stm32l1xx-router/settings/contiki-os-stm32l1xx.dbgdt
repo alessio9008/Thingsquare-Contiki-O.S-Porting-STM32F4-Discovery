@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1270</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>952</ColumnWidth1><ColumnWidth2>254</ColumnWidth2><ColumnWidth3>63</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>243</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory><item>watchdog_init</item></DisasmHistory>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <DRIVER_INTERRUPT_LOG><col-names><item>Execution Time</item><item>Interrupt</item><item>Program Counter</item><item>Status</item><item>Time</item></col-names><col-widths><item>180</item><item>300</item><item>100</item><item>120</item><item>180</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></DRIVER_INTERRUPT_LOG><DRIVER_TIMELINE_GRAPH><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></DRIVER_TIMELINE_GRAPH><DRIVER_DATA_LOG><col-names><item>Program Counter</item><item>Time</item></col-names><col-widths><item>130</item><item>180</item></col-widths></DRIVER_DATA_LOG><PHYSBPWIN><col-names><item>#</item><item>Breakpoint</item></col-names><col-widths><item>15</item><item>501</item></col-widths></PHYSBPWIN><Register/><TerminalIO><InputSource>1</InputSource><InputMode>10</InputMode><Filename>$PROJ_DIR$\TermIOInput.txt</Filename><InputEcho>1</InputEcho><ShowReset>0</ShowReset></TerminalIO><STACK_1><PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><stack>CSTACK</stack><width>4</width><vars>1</vars><offset>0</offset><col-names><item>Data</item><item>Frame</item><item>Location</item><item>Type</item><item>Value</item><item>Variable</item></col-names><col-widths><item>100</item><item>100</item><item>100</item><item>100</item><item>100</item><item>100</item></col-widths></STACK_1><CallStack><col-names><item>Frame</item><item>_I0</item></col-names><col-widths><item>400</item><item>20</item></col-widths></CallStack><WATCH_1><expressions><item>Fc</item><item>band</item><item>lFBase</item><item>pxSRadioInitStruct</item><item>XTAL_FREQUENCY</item><item>s_vectnVCOFreq</item><item>i</item><item>BFactor</item><item>lFc</item><item>lFBase</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>138</item><item>150</item><item>100</item><item>100</item></col-widths></WATCH_1></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18217-18013</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-17694-18022</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-28965-18016</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>contiki-os-stm32l1xx</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-6946-18019</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-4601-8232</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd6><Tabs><Tab><Identity>TabID-15503-17154</Identity><TabName>Breakpoint Usage</TabName><Factory>PHYSBPWIN</Factory></Tab><Tab><Identity>TabID-19986-30562</Identity><TabName>Terminal I/O</TabName><Factory>TerminalIO</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd6><Wnd9><Tabs><Tab><Identity>TabID-27472-29807</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><REG1>0</REG1><REG2>0</REG2><Group>38</Group><States>0</States></Session></Tab><Tab><Identity>TabID-20055-8147</Identity><TabName>Call Stack</TabName><Factory>CallStack</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd9></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1-config.h</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>2349</SelStart><SelEnd>2349</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1\SPIRIT_Radio.h</Filename><XPos>0</XPos><YPos>305</YPos><SelStart>11049</SelStart><SelEnd>11049</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_Spirit_Spi_Driver.c</Filename><XPos>0</XPos><YPos>267</YPos><SelStart>8738</SelStart><SelEnd>8738</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\startup_stm32l1xx_md.s</Filename><XPos>0</XPos><YPos>117</YPos><SelStart>6304</SelStart><SelEnd>6304</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_i2c.c</Filename><XPos>0</XPos><YPos>1150</YPos><SelStart>41272</SelStart><SelEnd>41272</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_PM.c</Filename><XPos>0</XPos><YPos>468</YPos><SelStart>14215</SelStart><SelEnd>14215</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1\SPIRIT_Radio.c</Filename><XPos>0</XPos><YPos>891</YPos><SelStart>28889</SelStart><SelEnd>28889</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\rtimer-arch.c</Filename><XPos>0</XPos><YPos>133</YPos><SelStart>5074</SelStart><SelEnd>5074</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\watchdog.c</Filename><XPos>0</XPos><YPos>62</YPos><SelStart>2657</SelStart><SelEnd>2657</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\examples\blink\blink.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>662</SelStart><SelEnd>662</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\clock.c</Filename><XPos>0</XPos><YPos>91</YPos><SelStart>3365</SelStart><SelEnd>3365</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_spi.c</Filename><XPos>0</XPos><YPos>737</YPos><SelStart>28404</SelStart><SelEnd>28404</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\apps\mist-conf\mist.h</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>359</SelStart><SelEnd>359</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\examples\router-node\router-webserver-node.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>46</SelStart><SelEnd>46</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l152\STM32_USB-FS-Device_Lib\inc\usb_type.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1320</SelStart><SelEnd>1320</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\contiki-spirit1-main.c</Filename><XPos>0</XPos><YPos>100</YPos><SelStart>4430</SelStart><SelEnd>4443</SelEnd></Tab><ActiveTab>15</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\core\sys\process.c</Filename><XPos>0</XPos><YPos>300</YPos><SelStart>8849</SelStart><SelEnd>8849</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1.c</Filename><XPos>0</XPos><YPos>224</YPos><SelStart>8145</SelStart><SelEnd>8145</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0133ff40><key>iaridepm.enu1</key></Toolbar-0133ff40></Sizes></Row0><Row1><Sizes><Toolbar-0ba34c68><key>debuggergui.enu1</key></Toolbar-0ba34c68></Sizes></Row1><Row2><Sizes><Toolbar-0d5d1640><key>armstlink.enu1</key></Toolbar-0d5d1640></Sizes></Row2></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>531</Bottom><Right>317</Right><x>-2</x><y>-2</y><xscreen>319</xscreen><yscreen>206</yscreen><sizeHorzCX>189881</sizeHorzCX><sizeHorzCY>209350</sizeHorzCY><sizeVertCX>189881</sizeVertCX><sizeVertCY>541667</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>264</Bottom><Right>343</Right><x>-2</x><y>-2</y><xscreen>319</xscreen><yscreen>206</yscreen><sizeHorzCX>189881</sizeHorzCX><sizeHorzCY>209350</sizeHorzCY><sizeVertCX>205357</sizeVertCX><sizeVertCY>270325</sizeVertCY></Rect></Wnd2><Wnd9><Rect><Top>0</Top><Left>0</Left><Bottom>393222</Bottom><Right>77860456</Right><x>-2</x><y>262</y><xscreen>199</xscreen><yscreen>200</yscreen><sizeHorzCX>118452</sizeHorzCX><sizeHorzCY>203252</sizeHorzCY><sizeVertCX>205357</sizeVertCX><sizeVertCY>273374</sizeVertCY></Rect></Wnd9></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>127</Bottom><Right>1682</Right><x>-2</x><y>-2</y><xscreen>1684</xscreen><yscreen>129</yscreen><sizeHorzCX>1002381</sizeHorzCX><sizeHorzCY>131098</sizeHorzCY><sizeVertCX>189881</sizeVertCX><sizeVertCY>209350</sizeVertCY></Rect></Wnd0></Sizes></Row0><Row1><Sizes><Wnd6><Rect><Top>125</Top><Left>-2</Left><Bottom>361</Bottom><Right>1682</Right><x>-2</x><y>125</y><xscreen>1684</xscreen><yscreen>236</yscreen><sizeHorzCX>1002381</sizeHorzCX><sizeHorzCY>239837</sizeHorzCY><sizeVertCX>138690</sizeVertCX><sizeVertCY>239837</sizeVertCY></Rect></Wnd6></Sizes></Row1></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

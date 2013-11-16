@@ -1,0 +1,104 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1265543260
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=0
+PcSampPOSTCNT=0
+PcSampIndex=31
+DataLogMode=1
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Radio.c}.981.15" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Management.c}.711.20" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\examples\mesh-node\mesh-node.c}.20.3" 0 0 1 "" 0 "" 0
+Count=3
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[Aliases]
+A0=_ "C:\Users\Alessio\Desktop\TEMP\thingsquare-mist-1.0.1\contiki\core\net\mac\csma.c" "C:\cygwin\home\Administrator\thingsquare-mist-1.0.1-20130916 (versione udp multicast)\thingsquare-mist-1.0.1\contiki\core\net\mac\csma.c"
+A1=_ "C:\Users\Alessio\Desktop\TEMP\thingsquare-mist-1.0.1\contiki\core\net\uip-debug.c" ""
+A2=_ "C:\Users\Alessio\Desktop\TEMP\thingsquare-mist-1.0.1\contiki\core\net\uip-udp-packet.c" ""
+A3=_ "C:\Users\Alessio\Desktop\TEMP\thingsquare-mist-1.0.1\platform\mist-spirit1-F4\contiki-spirit1-main.c" ""
+A4=_ "C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\contiki\core\net\mac\csma.c" ""
+A5=_ "C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\contiki\core\net\mac\mac.c" ""
+A6=_ "C:\cygwin\home\Administrator\thingsquare-mist-1.0.1\platform\mist-spirit1-F4\contiki-spirit1-main.c" ""
+Count=7
+SuppressDialog=0
+[Trace2]
+Enabled=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""

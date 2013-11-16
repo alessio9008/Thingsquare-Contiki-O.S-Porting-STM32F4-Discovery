@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>contiki-os-stm32l1xx/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>263</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1346</ColumnWidth1><ColumnWidth2>324</ColumnWidth2><ColumnWidth3>81</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1383</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10645-6150</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>contiki-os-stm32l1xx</ExpandedNode><ExpandedNode>contiki-os-stm32l1xx/MAIN</ExpandedNode><ExpandedNode>contiki-os-stm32l1xx/Output</ExpandedNode><ExpandedNode>contiki-os-stm32l1xx/STMGRP2</ExpandedNode><ExpandedNode>contiki-os-stm32l1xx/Spirit SDK</ExpandedNode><ExpandedNode>contiki-os-stm32l1xx/blink</ExpandedNode><ExpandedNode>contiki-os-stm32l1xx/core</ExpandedNode><ExpandedNode>contiki-os-stm32l1xx/main.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-21749-6761</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-7845-20459</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_Button.c</Filename><XPos>0</XPos><YPos>135</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_Com.c</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>1658</SelStart><SelEnd>1667</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_Com.h</Filename><XPos>0</XPos><YPos>69</YPos><SelStart>2145</SelStart><SelEnd>2155</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_rcc.h</Filename><XPos>0</XPos><YPos>300</YPos><SelStart>15073</SelStart><SelEnd>15094</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l1xx\stm32l1xx.h</Filename><XPos>0</XPos><YPos>1136</YPos><SelStart>67364</SelStart><SelEnd>67364</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_gpio.h</Filename><XPos>0</XPos><YPos>318</YPos><SelStart>14676</SelStart><SelEnd>14681</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_Spirit_Spi_Driver.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1131</SelStart><SelEnd>1157</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_Spirit_Gpio.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l1xx\startup_stm32l1xx.s</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\cpu\arm\stm32l1xx\system_stm32l1xx.c</Filename><XPos>0</XPos><YPos>156</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\contiki-spirit1-main.c</Filename><XPos>0</XPos><YPos>102</YPos><SelStart>4394</SelStart><SelEnd>4394</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1\SPIRIT_Radio.c</Filename><XPos>0</XPos><YPos>570</YPos><SelStart>19495</SelStart><SelEnd>19495</SelEnd></Tab><ActiveTab>11</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\node-id.c</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>2687</SelStart><SelEnd>2687</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\contiki\core\net\netstack.c</Filename><XPos>0</XPos><YPos>35</YPos><SelStart>1968</SelStart><SelEnd>1968</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\spirit1.c</Filename><XPos>0</XPos><YPos>199</YPos><SelStart>7398</SelStart><SelEnd>7398</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_i2c.c</Filename><XPos>0</XPos><YPos>1223</YPos><SelStart>44699</SelStart><SelEnd>44699</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\platform\mist-spirit1\dev\sdk\SDK_EVAL_PM.c</Filename><XPos>0</XPos><YPos>150</YPos><SelStart>4521</SelStart><SelEnd>4521</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0133fb10><key>iaridepm.enu1</key></Toolbar-0133fb10></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>502</Bottom><Right>353</Right><x>-2</x><y>-2</y><xscreen>136</xscreen><yscreen>175</yscreen><sizeHorzCX>94444</sizeHorzCX><sizeHorzCY>209832</sizeHorzCY><sizeVertCX>246528</sizeVertCX><sizeVertCY>604317</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>288</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>290</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>347722</sizeHorzCY><sizeVertCX>94444</sizeVertCX><sizeVertCY>209832</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

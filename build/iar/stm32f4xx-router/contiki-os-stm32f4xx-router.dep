@@ -1,0 +1,4345 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1014674284</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\psock.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\queuebuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\resolv.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\sicslowpan.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\simple-udp.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\slipdev.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\tcpdump.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\tcpip.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv-rt.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6-route.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw-drv.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-icmp6.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktCommon.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Management.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\resolv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-802154.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Radio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-neighbor.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\channel.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\trickle.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpdump.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-icmp6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-neighbor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\router-node.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Types.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-ipv4-dhcp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ifft.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ctimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\frame802154.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-nd6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-special-ports.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uiplib.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\cxmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\csma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable-aggregate.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-slip-interface.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Irq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowpan.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\watchdog.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Radio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_LinearFifo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of0.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktBasic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-attr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\profile.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\http-strings.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\blink.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-split.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-nullmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\contikimac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes-ccm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_General.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_DirectRF.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-attr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds-arch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\route.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-over-mesh.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\memb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-debug.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\route-discovery.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\channel.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\node-id.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\elfloader.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-dag.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Timers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetqueue.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\arg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv-rt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\elfloader.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\csma.pbi</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimeaddr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw-drv.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6-route.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes-ccm.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\broadcast.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ctimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\print-stats.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-os-stm32f4xx-router.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Calibration.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_PM.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktMbus.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-timers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc-noframer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\phase.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowmac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-packetqueue.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Types.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\contikimac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\resolv.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Button.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ringbuf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\compower.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ringbuf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-ipv4-dhcp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip_arp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-udp-packet.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\udp-socket.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktStack.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\trickle.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\http-strings.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktBasic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Commands.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addrmap.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple-udp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimestats.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktCommon.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\profile.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Calibration.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-spirit1-main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple-udp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\checkpoint.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-null-driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\broadcast.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1-arch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer-arch.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\symbols.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\psock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\websocket-http-client.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\random.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\compower.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_DirectRF.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Led.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\unicast.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer-arch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\node-id.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-spirit1-main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv-rt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-icmp6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-split.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\frame802154.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cxmac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-tap-driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpip.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpip.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\psock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Irq.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\udp-socket.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dhcpc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-icmp6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\contikimac.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetbuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-nd6.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-neighbor.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-over-mesh.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-packetqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-split.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-udp-packet.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip6.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip_arp.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uiplib.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\broadcast.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\channel.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route-discovery.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\trickle.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\unicast.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\arg.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\compower.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\netstack-aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\ctimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\energest.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\mt.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\process.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\procinit.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\profile.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\rtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\stimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable-aggregate.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\contiki-spirit1-main.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\clock.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\node-id.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Button.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\rtimer-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Com.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Led.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_PM.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Gpio.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktStack.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimeaddr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-info.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Timers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetqueue.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Csma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Csma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple-rpl.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie-multichannel.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-dag.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_systick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\checkpoint.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\watchdog.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetbuf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpdump.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-timers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Com.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-arp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack-aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dhcpc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6-route.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\energest.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-special-ports.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-ext-header.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-info.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds-arch.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-tap-driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1-arch.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcp-socket.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\unicast.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Spi_Driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowpan.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip_arp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack-aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Button.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_dbgmcu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_LinearFifo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\slipdev.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Qi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\memb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of-etx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-nullmac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-packetqueue.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimestats.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\route.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addrmap.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Management.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\route-discovery.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetbuf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-slip-interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\phase.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\print-stats.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes-ccm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple-rpl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_General.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Com.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mmem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\queuebuf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Commands.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\slipdev.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mmem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-over-mesh.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth-interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mdns.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\energest.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-icmp6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-null-driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cxmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-udp-packet.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ifft.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-arp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie-multichannel.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullmac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\websocket-http-client.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcp-socket.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc-noframer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-debug.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw-drv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\websocket.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Spi_Driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\router-node.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of-etx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-802154.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\arg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\queuebuf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_PM.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth-interface.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\websocket.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Spi_Driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Calibration.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Commands.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Csma.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_DirectRF.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_General.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Irq.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_LinearFifo.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Management.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktBasic.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktCommon.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktMbus.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktStack.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Qi.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Radio.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Regs.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Types.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\leds-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\startup_stm32f4xx.s</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\examples\router-node\router-node.c</file>
+      <file>$PROJ_DIR$\..\..\..\examples\router-node\symbols.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\checkpoint.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\crc16.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\ifft.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\memb.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\mmem.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\print-stats.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\random.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\ringbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\loader\elfloader.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\contikimac.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_systick.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-addrmap.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-arp.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth-interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-ipv4-dhcp.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-null-driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-slip-interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-special-ports.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-tap-driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64-addr\ip64-addr.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\mdns\mdns.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\simple-rpl\simple-rpl.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\tcp-socket\tcp-socket.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\udp-socket\udp-socket.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\websocket\http-strings.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\websocket\websocket-http-client.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\websocket\websocket.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\cc2420_const.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mdns.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-ext-header.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\symbols.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable-aggregate.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of0.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-nd6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xmac.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\drowsie-multichannel\drowsie-multichannel.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\csma.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\cxmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\frame802154.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-802154.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-nullmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\lpp.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\mac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc-noframer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\phase.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\sicslowmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\xmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimeaddr.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\runicast.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-attr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uiplib.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Qi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktMbus.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\drowsie\drowsie.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimestats.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-dag.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-ext-header.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-icmp6.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of-etx.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of0.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\dhcpc.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\hc.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-attr.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-info.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\netstack.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\announcement.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Commands.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\platform-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\dhcpc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\contiki-conf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki-version.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimeaddr.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\radio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\leds.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-tap-driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\watchdog.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\print-stats.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\system_stm32f4xx.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Qi.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktStack.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktMbus.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktCommon.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktBasic.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_LinearFifo.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Irq.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_General.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_DirectRF.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Csma.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rime-udp.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\ip64-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\node-id.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-addrmap.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Management.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1-arch.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Radio.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Led.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rmh.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\lpp.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimestats.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rucb.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\compower.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\trickle.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\random.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\abc.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\multihop.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki-net.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\loader\elfloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\process.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\profile.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\collect-link-estimate.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\neighbor-discovery.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\queuebuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\xmac.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-nullmac.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\stimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uipopt.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes-ccm.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\tcpip.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\polite.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\netstack.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-private.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\stm32f4xx_conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\mist-conf\mist-default-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip_arp.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki-lib.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\loader\elfloader-arch.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6-route.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\stunicast.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\collect-neighbor.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetqueue.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\ipolite.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip_arch.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-udp-packet.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\polite-announcement.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\ifft.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\mmem.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\chameleon.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\channel.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-icmp6.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-info.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\ctimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Spi_Driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\cc2420.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\collect.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\rdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\csma.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Spi_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uiplib.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\timesynch.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\memb.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\broadcast.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Button.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\rtimer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-nd6.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\lc-switch.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\netstack-aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\phase.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\autostart.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\pt.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\lc.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc-noframer.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\cc.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\rtimer-arch.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\mdns\mdns.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\websocket\websocket.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\slip.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\xmem.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\procinit.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\mtarch.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-slip-interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-null-driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\mt.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\mist-conf\mist.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki-default-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Types.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\mist-conf\mist-conf-const.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-special-ports.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-ipv4-dhcp.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\loader\symbols.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\tcp-socket\tcp-socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Calibration.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\udp-socket\udp-socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\websocket\websocket-http-client.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\etimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\websocket\http-strings.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\petsciiconv.h</file>
+      <file>$PROJ_DIR$\..\..\..\examples\router-node\symbols.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_it.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-over-mesh.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\clock.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f4xx_flash.icf</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-neighbor.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\mac.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-802154.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Documents and Settings\Administrator\contiki-mist-spirit1-F4.log</file>
+      <file>$PROJ_DIR$\Debug\List\blink.map</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\unicast.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\loader.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\energest.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route-discovery.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\netflood.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\checkpoint.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\ringbuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\sicslowmac.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\loader\symtab.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\mesh.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\list.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullmac.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\simple-udp.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\cfs\cfs.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\sicslowpan.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\psock.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_PM.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\resolv.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\frame802154.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\hc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-dhcpc.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth-interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-arp.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-split.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable-aggregate.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\slipdev.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw-drv.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv-def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\simple-rpl\simple-rpl.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64-addr\ip64-addr.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-packetqueue.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1-const.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv-rt.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_systick.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\arg.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Com.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\serial-line.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 63 685 684</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\packetbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 322</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 552 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 552 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\packetqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 600 668 628 675 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 556 634 635 629 638 584 697 613 199 503 562</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 600 668 628 675 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 556 634 635 629 638 584 697 613 199 503 562</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\psock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 703 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 576 697 613 592 549 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 703 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 576 697 613 592 549 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\queuebuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 334</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 370</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\resolv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 568 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 636 566 708</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 568 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 636 566 708</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\sicslowpan.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 509 568 636 566 659 565 627 579 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 702 598 474 570 608 504 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 509 568 636 566 659 565 627 579 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 702 598 474 570 608 504 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\simple-udp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\slipdev.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 336</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 616 725</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 616 725</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\tcpdump.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\tcpip.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 722 733 632 667 673 604 590</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 722 733 632 667 673 604 590</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv-rt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 737 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 737 552 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 587 197 502 500 497 496 501 620 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 727 636 566 568 737 552 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 731</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 587 197 502 500 497 496 501 620 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 727 636 566 568 737 552 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 731</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 632 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 632 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6-route.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 659 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 565 627 579 697 613 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 659 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 565 627 579 697 613 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 45 665 549 627 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 565 659 579 733 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 45 665 549 627 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 565 659 579 733 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw-drv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 361</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 616 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 616 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 500 497 496 501 654 574 630 636 566 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 586 616 727</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 500 497 496 501 654 574 630 636 566 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 586 616 727</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-icmp6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 344</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 659 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 565 627 579 597 604 590 697</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 659 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 565 627 579 597 604 590 697</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\blink.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 685 684</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 680 126 269 171 110 265 365 249 299 149 335 255 169 331 164 190 302 320 59 20 111 135 476 25 346 122 326 295 369 373 363 104 85 153 35 168 150 66 343 47 37 184 194 355 179 96 342 254 183 23 310 317 137 36 313 140 352 372 163 34 345 49 41 285 446 284 307 178 327 329 447 306 161 333 281 60 283 273 362 86 356 114 305 266 91 115 325 39 330 61 189 334 167 124 247 314 127 83 318 366 89 280 195 309 452 113 87 159 192 118 51 328 141 303 286 455 117 71 152 301 53 252 125 94 82 479 279 148 450 351 287 267 186 478 451 42 28 95 193 134 360 276 296 100 246 181 453 26 339 120 64 133 156 308 291 43 173 264 357 364 456 676 679 677 678</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\aes\aes-ccm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 326</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 636 566 568 567 601 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 636 566 568 567 601 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-nd6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 453</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 597 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 627 565 659 579 549 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 597 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 627 565 659 579 549 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-neighbor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 681 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 681 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-over-mesh.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 339</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 713 636 566 500 497 496 501 620 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 616 674 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 713 636 566 500 497 496 501 620 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 616 674 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-packetqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 636 566 500 497 496 501 620 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 613 733</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 636 566 500 497 496 501 620 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 613 733</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-split.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 722 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 616 586</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 722 636 566 500 497 496 501 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 616 586</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-udp-packet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 588 636 566 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 588 636 566 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 575 586</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 575 586</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 308</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 597 627 565 659 579 632 667 673 604 590 697</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 597 627 565 659 579 632 667 673 604 590 697</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip_arp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 575 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 575 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uiplib.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 475</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 611 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 611 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\broadcast.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\channel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 594 595 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 199 503 606 494 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 594 595 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 199 503 606 494 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route-discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 321</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 665 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 665 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 318</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 697 613 638 500 497 496 501 620 624 654 574 630 600 668 628 675 556 634 635 629 543 503</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 697 613 638 500 497 496 501 620 624 654 574 630 600 668 628 675 556 634 635 629 543 503</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\trickle.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 548 600 668 628 675 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 556 634 635 629 638 614 550 199 503 595 594 562 549</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 548 600 668 628 675 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 556 634 635 629 638 614 550 199 503 595 594 562 549</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\unicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 606 494 503 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 606 494 503 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\arg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 369</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 740</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 740</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\autostart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 633 556 634 635 629 638 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 633 556 634 635 629 638 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\compower.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 688 623 639 675 547 199 503</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 688 623 639 675 547 199 503</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\dev\leds.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 507 675 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 688 623 639</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 507 675 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 688 623 639</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 509</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 509</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\aes\netstack-aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 570 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 682 506 608 504 199 503 567 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 570 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 682 506 608 504 199 503 567 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\ctimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 600 668 628 675 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 556 634 635 629 638 197 502 652 633 623 639 644 687 688 697</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 600 668 628 675 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 556 634 635 629 638 197 502 652 633 623 639 644 687 688 697</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\energest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 688 623 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 639 675</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 688 623 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 639 675</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 315</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 668 628 675 556 634 635 629 638</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 668 628 675 556 634 635 629 638</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\mt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 650 645</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 650 645</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 556 634 635 629 638 500 497 496 501 620 624 654 574 630 740</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 556 634 635 629 638 500 497 496 501 620 624 654 574 630 740</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 330</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\profile.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 559 723 638 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 623 639 675 724 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 559 723 638 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 623 639 675 724 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\rtimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 623 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 639 675 197 502 652 556 634 635 629 638 633 628 600 668 644 687 688</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 623 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 639 675 197 502 652 556 634 635 629 638 633 628 600 668 644 687 688</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\stimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 675 565</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 675 565</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 478</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 337</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 675 628</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 675 628</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable-aggregate.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 451</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 724 723 638 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 623 639 675 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 724 723 638 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 623 639 675 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 675 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 723 638 623 639 724 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 675 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 723 638 623 639 724 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\contiki-spirit1-main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 620 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 559 723 724 507 742 642 509 643 711 527 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 739 618 741 541 705 700 732 716 394 734 653 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 535 736 605 735 536 529</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 620 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 559 723 724 507 742 642 509 643 711 527 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 739 618 741 541 705 700 732 716 394 734 653 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 535 736 605 735 536 529</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 197 502 500 497 496 501 620 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 507 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 738</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 197 502 500 497 496 501 620 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 507 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 738</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\node-id.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 529 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 529 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Button.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 300</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 618 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 618 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\rtimer-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 509 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 672</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 509 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 672</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Com.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 332</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 741 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 741 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 541 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 541 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_PM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 371</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 705 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 705 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 700 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 700 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Spi_Driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 365</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 289</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 610 741 602 653 667 596 673 394 536 620 624 535 739 618 541 705 700 732 716 734 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 610 741 602 653 667 596 673 394 536 620 624 535 739 618 541 705 700 732 716 734 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 732 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 732 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 734 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 734 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Calibration.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 662 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 662 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Commands.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 495 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 495 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Csma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 526 653 501 499 599 557 622 625 655 619 667 596 673 394 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 526 653 501 499 599 557 625 655 619 667 596 673 394 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_DirectRF.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 525 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 525 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_General.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 331</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 524 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 524 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 523 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 523 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Irq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 522 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 522 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_LinearFifo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 302</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 520 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 520 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Management.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 320</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 535 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 739 618 741 541 705 700 732 716 394 734 653 667 596 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 535 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 739 618 741 541 705 700 732 716 394 734 653 667 596 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktBasic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 519 394 653 501 499 599 557 622 625 655 619 667 596 673 518 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 519 394 653 501 499 599 557 625 655 619 667 596 673 518 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktCommon.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 518 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 518 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktMbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 477</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 517 394 653 501 499 599 557 622 625 655 619 667 596 673 518 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 517 394 653 501 499 599 557 625 655 619 667 596 673 518 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktStack.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 516 394 653 501 499 599 557 622 625 655 619 667 596 673 518 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 516 394 653 501 499 599 557 625 655 619 667 596 673 518 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Qi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 476</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 515 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 515 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Radio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 536 535 739 618 741 541 705 700 732 716 394 734 653 667 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 736 506 605 735 0 514 532</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 536 535 739 618 741 541 705 700 732 716 394 734 653 667 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 736 506 605 735 0 514 532</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 521 394 653 501 499 599 557 622 625 655 619 667 596 673 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 521 394 653 501 499 599 557 625 655 619 667 596 673 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Types.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 653 501 499 599 557 622 625 655 619 667 596 673 394 602</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 653 501 499 599 557 625 655 619 667 596 673 394 602</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\leds-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 507 541 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 507 541 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 741</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\startup_stm32f4xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 536 620 596 624 535 739 618 741 541 705 700 732 716 394 734 653 667 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 736 506 605 735 610</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 536 620 596 624 535 739 618 741 541 705 700 732 716 394 734 653 667 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 736 506 605 735 610</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 455</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 736 506 716 394 734 653 501 499 599 557 622 625 655 619 667 596 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 605 735 536 620 624 535 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 739 618 741 541 705 700 732 197 502 500 497 496 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 711 503 570 682 608 504 199 545 610</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 736 506 716 394 734 653 501 499 599 557 625 655 619 667 596 673 662 495 526 525 524 523 522 521 520 519 518 517 516 515 537 602 605 735 536 620 624 535 712 512 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706 739 618 741 541 705 700 732 197 502 500 497 496 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 711 503 570 682 608 504 199 545 610</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 351</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\examples\router-node\router-node.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 366</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 651 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 507 601 730 649 528 646 647 648 640 729 661 663 641 664 669 45 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 651 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 507 601 730 649 528 646 647 648 640 729 661 663 641 664 669 45 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\examples\router-node\symbols.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 450</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 671 658</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 671 658</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 316</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 706 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 706 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 715 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 715 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 301</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 626 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 626 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\assert.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 373</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\checkpoint.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 691 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 691 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 343</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\ifft.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 350</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 591 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 591 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 697</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 697</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\memb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 306</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 613</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 613</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\mmem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 333</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 338</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 592 697 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 592 697 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\print-stats.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 325</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 510 606 494 503 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548 688 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 510 606 494 503 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548 688 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\random.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 449</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 549 675 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 549 675 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\ringbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 692 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 692 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\loader\elfloader.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 555 701 578 694 665 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 555 701 578 694 665 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\contikimac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 507 506 509 549 198 623 639 675 608 682 570 504 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673 631</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 507 506 509 549 198 623 639 675 608 682 570 504 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673 631</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 553 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 553 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 572 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 572 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 580 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 580 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 707 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 615 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 707 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 479</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 454</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 615 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 540 539 538 706</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 615 712 512 501 499 599 557 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_systick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 738 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 540 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 540 712 512 501 499 599 557 622 625 655 619 710 728 617 704 98 511 573 715 714 720 695 621 626 660 554 553 666 558 583 572 580 577 721 1 533 534 593 707 615 539 538 706</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-addrmap.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 319</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 530 628 675 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 636 566 568 197 502 652 556 634 635 629 638 633 600 668 623 639 644 687 688 613 697 528 646 647 648</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-arp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 352</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 649 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 528 646 647 648 513 719 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth-interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 642 649 528 646 647 648 719 513 718 508 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 513 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-ipv4-dhcp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 717 649 528 646 647 648 513 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-null-driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 345</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 648</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-slip-interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 323</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 642 649 528 646 647 648 667 673 632</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-special-ports.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 649 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 528 646 647 648 656</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-tap-driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 285</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 446</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 354</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 649 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 528 646 647 648 730 530 656 718 508 657 552 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64-addr\ip64-addr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 313</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 730 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\mdns\mdns.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 447</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 568 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 636 566 708 588 730 667 673 531</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\simple-rpl\simple-rpl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 328</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 604 590 729 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\tcp-socket\tcp-socket.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 661 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\udp-socket\udp-socket.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 552 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 663</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\websocket\http-strings.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\websocket\websocket-http-client.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 667 673 552 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 730 640 664 669</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\websocket\websocket.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 375</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 665 620 624 552 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 664 669 701 670 640 641</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\drowsie-multichannel\drowsie-multichannel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 355</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 199 503 562 570 682 506 608 504 667 673 549 603 46 445 604 590 697 636 566 568 659 565 627 579 571 507</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 199 503 562 570 682 506 608 504 667 673 549 603 46 445 604 590 697 636 566 568 659 565 627 579 571 507</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\aes\aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\csma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 609 682 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 506 199 503 562 600 668 628 675 556 634 635 629 638 549 570 608 504 697 613 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 609 682 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 506 199 503 562 600 668 628 675 556 634 635 629 638 549 570 608 504 697 613 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\cxmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 507 506 509 570 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 682 608 504 549 44 623 639 675 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 507 506 509 570 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 682 608 504 549 44 623 639 675 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\frame802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 638 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 711 503</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 638 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 711 503</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 683 504 711 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 503 199 549</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 683 504 711 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 503 199 549</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 310</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 564 504 199 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 503</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 564 504 199 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 503</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\lpp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 327</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 507 697 613 638 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 549 606 494 503 607 473 581 600 668 628 675 556 634 635 629 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548 570 608 504 544 547 45 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 507 697 613 638 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 549 606 494 503 607 473 581 600 668 628 675 556 634 635 629 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548 570 608 504 544 547 45 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 682 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 506</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 682 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 506</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 356</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 353</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 698 682 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 506 199 503 570 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 698 682 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 506 199 503 570 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc-noframer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 359</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 637 608 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 682 506 199 503 562 570 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 637 608 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 682 506 199 503 562 570 504</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 305</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 709 608 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 682 506 199 503 562 570 504 545 623 639 675 509</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 709 608 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 682 506 199 503 562 570 504 545 623 639 675 509</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\phase.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 324</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 631 503 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 628 675 623 639 697 613 638 570 682 506 608 504 199 600 668 556 634 635 629 562 509 507</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 631 503 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 628 675 623 639 697 613 638 570 682 506 608 504 199 600 668 556 634 635 629 562 509 507</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\sicslowmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 374</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 620 499 599 557 622 625 655 619 596 624 693 608 500 497 496 501 654 574 630 682 506 711 503 199 562 570 504 549</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 620 499 599 557 625 655 619 596 624 693 608 500 497 496 501 654 574 630 682 506 711 503 199 562 570 504 549</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\xmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 456</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 507 506 509 549 570 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 682 608 504 563 623 639 675 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 507 506 509 549 570 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 682 608 504 563 623 639 675 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimeaddr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 503 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 503 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\drowsie\drowsie.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 507 506 509 549 198 623 639 675 608 682 570 504 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 507 506 509 549 198 623 639 675 608 682 570 504 606 494 503 607 473 581 600 668 628 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 548 547 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimestats.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 314</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 545</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 545</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-dag.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 571 604 590 697 636 566 568 659 565 627 579 613 505 632 667 673 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 571 604 590 697 636 566 568 659 565 627 579 613 505 632 667 673 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-ext-header.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 448</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 571 604 590 697 632 667 673 505</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 571 604 590 697 632 667 673 505</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-icmp6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 568 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 636 566 659 565 627 579 597 571 604 590 697 199 503 505 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 568 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 636 566 659 565 627 579 597 571 604 590 697 199 503 505 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of-etx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 309</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 367</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 571 604 590 697 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 571 604 590 697 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of0.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 452</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 571 604 590 697 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 632 667 673 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 571 604 590 697 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 632 667 673 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 571 604 590 697 636 566 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 549 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 571 604 590 697 636 566 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 549 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 571 604 590 697 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 632 667 673 505</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 659 565 627 579 571 604 590 697 598 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 632 667 673 505</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\dhcpc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 667 499 599 557 622 625 655 619 596 673 620 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 498</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 667 499 599 557 625 655 619 596 673 620 624 197 502 500 497 496 501 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 552 568 636 566 616 726 575 611 588 699 597 659 565 627 579 708 703 576 697 613 592 549 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548 570 608 504 498</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\hc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 317</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 713 636 566 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 713 636 566 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 568 197 502 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-attr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197 502 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 613 697 665 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197 502 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 652 556 634 635 629 638 633 628 675 600 668 623 639 644 687 688 613 697 665 474 606 494 503 607 473 581 686 614 550 199 595 594 562 561 582 560 584 585 696 551 689 690 589 569 545 542 543 546 612 682 506 548</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-info.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 598 474 606 494 503 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548 659 636 566 568 197 502 652 633 644 687 688 565 627 579 632 667 673</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 598 474 606 494 503 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 607 473 581 600 668 628 675 556 634 635 629 638 686 614 550 199 595 594 562 561 582 560 697 584 613 585 696 551 689 690 589 569 545 542 543 546 612 682 506 623 639 548 659 636 566 568 197 502 652 633 644 687 688 565 627 579 632 667 673</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\netstack.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 362</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 570 500 497 496 499 501 599 557 622 625 655 619 620 596 624 654 574 630 682 506 608 504</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 570 500 497 496 499 501 599 557 625 655 619 620 596 624 654 574 630 682 506 608 504</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

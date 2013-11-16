@@ -1,0 +1,2606 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>801875715</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Qi.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\crc16.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Commands.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addrmap.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\psock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-os-stm32f4xx.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_dbgmcu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ifft.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc-noframer.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\ifft.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-addrmap.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1-arch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Button.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktCommon.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\stunicast.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\watchdog.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktStack.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\stimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\stimer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\xmac.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\netflood.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\pt.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-timers.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack-aes.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\memb.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullmac.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktMbus.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\phase.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\lpp.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\broadcast.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\elfloader.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\queuebuf.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\netstack.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\energest.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Commands.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\sicslowmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\checkpoint.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-split.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\mac.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\netstack.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of-etx.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-debug.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Com.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-ext-header.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Irq.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth-interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\symbols.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-802154.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-dag.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\cxmac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetqueue.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_PM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Radio.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-ext-header.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-info.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth-interface.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\dhcpc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\ip64-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\mmem.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimeaddr.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\xmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of0.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-null-driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\queuebuf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\print-stats.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\list.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-icmp6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mmem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-arp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-debug.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ringbuf.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\phase.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\rdc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw-drv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\cc2420.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uipopt.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\multihop.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\elfloader.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-attr.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\slipdev.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-ext-header.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Csma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Timers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-nullmac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpp.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-timers.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes-ccm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-udp-packet.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki-version.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\lc-switch.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\timesynch.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimestats.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\compower.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-icmp6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dhcpc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpip.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowmac.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\polite-announcement.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\route.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\slipdev.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth-interface.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-slip-interface.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uiplib.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Led.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktMbus.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-802154.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Com.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\channel.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes-ccm.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-arp.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Button.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\rtimer-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\drowsie\drowsie.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Led.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\leds-arch.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Calibration.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\mac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\csma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimestats.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\startup_stm32f4xx.s</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\contiki-spirit1-main.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\resolv.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\mist-conf\mist-conf-const.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\netstack-aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Types.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\compower.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip6.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable-aggregate.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\trickle.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\ctimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\queuebuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\psock.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\energest.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addr.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\hc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-tap-driver.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\watchdog.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc-noframer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\trickle.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-ipv4-dhcp.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-arp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Commands.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\resolv.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\profile.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimestats.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-special-ports.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\examples\blink\symbols.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\frame802154.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\ipolite.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowpan.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-special-ports.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth-interface.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\mmem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-udp-packet.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\contiki-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\collect-link-estimate.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\random.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\route-discovery.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-802154.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Management.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-tap-driver.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cxmac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpdump.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\cc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\polite.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Types.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_LinearFifo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Irq.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\node-id.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\tcpip.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Types.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer-arch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\symbols.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-ipv4-dhcp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\memb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ringbuf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\resolv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uiplib.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-tap-driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Timers.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\abc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktBasic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-nd6.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\slip.h</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\netstack-aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-slip-interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Com.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\phase.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\watchdog.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route-discovery.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\cc2420_const.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\frame802154.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\rtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\profile.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\arg.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-over-mesh.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple-udp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-spirit1-main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\queuebuf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc-noframer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktBasic.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-slip-interface.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullmac.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\contikimac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Radio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds-arch.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\process.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktCommon.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktMbus.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\dhcpc.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\runicast.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ctimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\rtimer-arch.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\lc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\contikimac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\checkpoint.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-eth.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\chameleon.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\contikimac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\ctimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple-udp.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-addrmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\loader.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\energest.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\memb.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\mist-conf\mist-default-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_PM.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Management.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\broadcast.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Management.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\clock.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-attr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-packetqueue.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\unicast.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv-rt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-info.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable-aggregate.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\procinit.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Irq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Qi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-over-mesh.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\autostart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_PM.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\compower.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-neighbor.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-debug.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktCommon.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\radio.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\collect.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetbuf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rucb.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_General.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-neighbor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-packetqueue.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Csma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\frame802154.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\checkpoint.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Spi_Driver.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\print-stats.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\contiki-spirit1-main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\channel.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-split.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetqueue.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\unicast.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip_arp.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\collect-neighbor.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\profile.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Csma.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-icmp6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes-ccm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\route-discovery.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktStack.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of0.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of-etx.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\process.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv-rt.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\broadcast.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6-route.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip6.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-icmp6.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-nd6.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Calibration.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uiplib.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\tcpip.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_General.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-split.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6-route.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\broadcast.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\simple-udp.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\node-id.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\slipdev.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rmh.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-debug.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-info.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\mt.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-neighbor.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\arg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Spi_Driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Button.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-udp-packet.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\channel.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\contiki-default-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\sicslowpan.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes-ccm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw-drv.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\ringbuf.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sicslowpan.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\loader\elfloader.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-private.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie-multichannel.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_DirectRF.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\energest.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\csma.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\random.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\cxmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\memb.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\trickle.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\platform-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\compower.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\leds.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-packetqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route-discovery.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-over-mesh.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\tcpdump.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip_arp.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip6.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\node-id.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\neighbor-attr.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\trickle.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetqueue.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\procinit.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Calibration.c</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_systick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_DirectRF.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\lib\list.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-dag.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-icmp6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-special-ports.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\random.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\mesh.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Radio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\csma.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\announcement.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-timers.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\blink.out</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_LinearFifo.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ifft.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer-arch.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of-etx.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-addrmap.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-icmp6.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-nullmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Timers.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\dev\spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\clock.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimeaddr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\unicast.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nullrdc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds-arch.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpdump.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\drowsie-multichannel.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6-route.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_PktStack.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimeaddr.h</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimestats.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip_arp.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-slip-interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-tap-driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-null-driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64-addr\ip64-addr.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Qi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcpip.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-fw-drv.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\unicast.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetbuf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimeaddr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\apps\drowsie-multichannel\drowsie-multichannel.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_systick.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-ds6-route.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-null-driver.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-null-driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable-aggregate.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\neighbor-discovery.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_DirectRF.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\etimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_LinearFifo.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\packetqueue.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\psock.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\netstack-aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\route.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\arg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Spirit_Spi_Driver.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\rime\channel.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mt.o</file>
+      <file>$PROJ_DIR$\..\..\..\apps\ip64\ip64-ipv4-dhcp.c</file>
+      <file>$PROJ_DIR$\..\..\..\examples\blink\blink.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPIRIT_Timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\uip-nd6.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-dag.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\framer-nullmac.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1-arch.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\print-stats.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetbuf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ip64-arp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rpl-of0.o</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\sys\rtimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ctimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\contiki\core\net\mac\contikimac.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_General.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uaodv-rt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\xmac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\apps\aes\aes.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uip-nd6.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktBasic.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spirit1.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Qi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 322</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 506</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 380</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 475</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Commands.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc-noframer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 544</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 529</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\ifft.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 469</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-addrmap.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 473</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303 255 480 205 426 88 95 126 298 491 485 542 11 70 291 116 160 307 242 496 102 226 61 120 405 273 27 286 121 217 324 173 520 550 285 447 304 176 30 452 78 267 515 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\dev\leds.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 327</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktStack.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 371</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 493</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullrdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 483</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 428</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\stimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 341</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 494</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 466</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\assert.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 338</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\phase.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\lpp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\sicslowmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\checkpoint.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 347</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\netstack.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 439</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-ext-header.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 478</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\packetbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 546</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 510</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 284</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Irq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 321</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-dag.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 540</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 453</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\packetqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 445</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Radio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 459</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-info.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 395</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\dhcpc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\mmem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimeaddr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 481</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 511</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\xmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 555</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of0.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 549</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\print-stats.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 351</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 545</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 463</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 490</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 337</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\neighbor-attr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 443</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\rimestats.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 464</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Com.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\aes\aes-ccm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 368</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 408</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 120 205 426 88 95 126 298 491 485 542 11 70 291 116 160 307 242 405 273 27 286 121 217 324 255 480 173 520 550 285 447 304 176 496 102 226 118 178 172 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-arp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 548</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 488 496 102 205 426 88 95 126 298 491 485 542 11 70 291 116 160 307 242 226 61 120 405 273 27 286 121 217 324 255 480 173 520 550 285 447 304 176 78 267 515 73 74 186 172 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Button.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 401</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\rtimer-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 470</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\drowsie\drowsie.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 353</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205 426 88 95 126 298 491 485 542 11 70 291 116 160 307 242 429 332 181 207 269 550 285 480 97 152 43 525 243 461 497 333 279 17 173 520 255 273 27 286 121 217 509 376 238 336 531 294 264 518 362 206 452 522 30 197 458 103 251 26 131 219 498 393 449 339 123 425 427 172 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\leds-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 484</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\startup_stm32f4xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\contiki-spirit1-main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\resolv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\aes\netstack-aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 526</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 205 426 88 95 126 298 491 485 542 11 70 291 116 160 307 242 152 332 97 525 336 497 118 172 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Types.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 438</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 537</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 388</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\queuebuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\psock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 524</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\hc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 250</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 532</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\examples\blink\symbols.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\frame802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 253</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 346</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-special-ports.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 455</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth-interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 496 102 205 426 88 95 126 298 491 485 542 11 70 291 116 160 307 242 226 61 120 405 273 27 286 121 217 324 255 480 173 520 550 285 447 304 176 198 22 538 492 241 488 78 267 515 73 186 74 134 212 54 172 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Management.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 309</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\node-id.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 391</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 440</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\rtimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\profile.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 363</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\arg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 528</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 399</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktCommon.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktMbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 364</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 369</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 334</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\ctimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 551</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 413</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_PM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 325</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\cpu\arm\stm32f4xx\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 412</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 557</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\unicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 359</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 482</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\timetable-aggregate.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 517</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\compower.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\autostart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Spirit_Spi_Driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 530</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 560</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Csma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 345</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv-rt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 554</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 317</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6-route.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 387</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 514</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-icmp6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-nd6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 558</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uiplib.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\tcpip.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 507</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-split.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 356</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\broadcast.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\simple-udp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 302</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\slipdev.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 330</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uaodv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 543</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 523</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\mt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 533</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 442</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-neighbor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 343</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-udp-packet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 487</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 547</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\channel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 354</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\sicslowpan.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 415</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-ds6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 495</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-fw-drv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 508</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\ringbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\loader\elfloader.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_DirectRF.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 519</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 451</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\sys\energest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\csma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 460</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\random.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 456</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 446</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\cxmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\lib\memb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 306</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 366</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-packetqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 344</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 315</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route-discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 370</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip-over-mesh.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 323</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\tcpdump.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 486</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip_arp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 361</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\uip6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 378</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\route.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 527</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rime\trickle.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_Calibration.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 382</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 467</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_LinearFifo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 521</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-of-etx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 373</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 539</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\rpl\rpl-icmp6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 367</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 454</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\framer-nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 541</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\sdk\SDK_EVAL_Timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 457</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-eth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-slip-interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-tap-driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-null-driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 516</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64-addr\ip64-addr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\drowsie-multichannel\drowsie-multichannel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 489</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 418</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 120 205 426 88 95 126 298 491 485 542 11 70 291 116 160 307 242 405 273 27 286 121 217 324 255 480 173 520 550 285 447 304 176 336 497 264 43 152 332 97 525 172 169 207 101 479 252 292 441 452 496 102 226 198 22 538 492 417 429</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_systick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 450</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\ip64\ip64-ipv4-dhcp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\examples\blink\blink.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 561</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\contiki\core\net\mac\contikimac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_General.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 385</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 342</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\apps\aes\aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 462</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 465</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\mist-spirit1-F4\dev\spirit1\SPIRIT_PktBasic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
