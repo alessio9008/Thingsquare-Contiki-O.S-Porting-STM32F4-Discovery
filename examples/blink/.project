@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>blink</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>?name?</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildCommand</key>
+					<value>make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>TARGET=mist-spirit1-F4 IAR=1 blink.upload</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>true</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>External files/SPIRIT_General.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/platform/mist-spirit1-F4/dev/spirit1/SPIRIT_General.c</location>
+		</link>
+		<link>
+			<name>External files/SPIRIT_Radio.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/platform/mist-spirit1-F4/dev/spirit1/SPIRIT_Radio.c</location>
+		</link>
+		<link>
+			<name>External files/aes-ccm.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/aes/aes-ccm.c</location>
+		</link>
+		<link>
+			<name>External files/contiki-spirit1-main.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/platform/mist-spirit1-F4/contiki-spirit1-main.c</location>
+		</link>
+		<link>
+			<name>External files/contikimac.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/mac/contikimac.c</location>
+		</link>
+		<link>
+			<name>External files/dhcpc.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/dhcpc.c</location>
+		</link>
+		<link>
+			<name>External files/dhcpv4.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/ip64/dhcpv4.c</location>
+		</link>
+		<link>
+			<name>External files/drowsie-multichannel.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/drowsie-multichannel/drowsie-multichannel.c</location>
+		</link>
+		<link>
+			<name>External files/drowsie.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/drowsie/drowsie.c</location>
+		</link>
+		<link>
+			<name>External files/ip64-arp.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/ip64/ip64-arp.c</location>
+		</link>
+		<link>
+			<name>External files/ip64.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/ip64/ip64.c</location>
+		</link>
+		<link>
+			<name>External files/lpp.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/mac/lpp.c</location>
+		</link>
+		<link>
+			<name>External files/mdns.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/mdns/mdns.c</location>
+		</link>
+		<link>
+			<name>External files/multichan.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/multichan/multichan.c</location>
+		</link>
+		<link>
+			<name>External files/nullrdc.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/mac/nullrdc.c</location>
+		</link>
+		<link>
+			<name>External files/rpl-dag.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/rpl/rpl-dag.c</location>
+		</link>
+		<link>
+			<name>External files/rpl-ext-header.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/rpl/rpl-ext-header.c</location>
+		</link>
+		<link>
+			<name>External files/rpl-icmp6.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/rpl/rpl-icmp6.c</location>
+		</link>
+		<link>
+			<name>External files/serial-line.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/dev/serial-line.c</location>
+		</link>
+		<link>
+			<name>External files/sicslowpan.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/sicslowpan.c</location>
+		</link>
+		<link>
+			<name>External files/simple-rpl.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/simple-rpl/simple-rpl.c</location>
+		</link>
+		<link>
+			<name>External files/spirit1.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/platform/mist-spirit1-F4/dev/spirit1.c</location>
+		</link>
+		<link>
+			<name>External files/uaodv.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/uaodv.c</location>
+		</link>
+		<link>
+			<name>External files/uip_arp.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/uip_arp.c</location>
+		</link>
+		<link>
+			<name>External files/websocket-http-client.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/websocket/websocket-http-client.c</location>
+		</link>
+		<link>
+			<name>External files/websocket.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/apps/websocket/websocket.c</location>
+		</link>
+		<link>
+			<name>External files/xmac.c</name>
+			<type>1</type>
+			<location>C:/cygwin/home/Administrator/thingsquare-mist-1.0.1/contiki/core/net/mac/xmac.c</location>
+		</link>
+	</linkedResources>
+</projectDescription>
